@@ -1,0 +1,196 @@
+#!/bin/bash
+
+# Find and go to where the script lives
+sdir="$(dirname "$(readlink -f $0)")"
+cd "$sdir"
+
+usage() {
+  echo "
+
+Usage: $0 [-c] [-a <archivedir>] [-A <coverage archivedir>] [-s] [-t] [-T target] [chapters]
+
+-a <archivedir>: Copy the resulting output into the specified directory after building it in $(pwd)/build/
+
+-A <coverage archivedir>: Same as -a but only used in coverage mode; this is to stop your coverage runs from overwriting your normal runs.
+
+By default, we offer to diff the new output to the latest official/ version.
+  -n: Skip the diff
+  -d: Run the diff without asking
+
+-s: Replaces external xrefs in each chapter, so each chapter works standalone.
+
+-t: Does what -s does, but also prevents most glossary processing so the glossary building goes much faster.
+
+-c: Coverage mode.  Instead of using the normal chapter data, runs a special small file that is designed to do everything we ever do, but runs very quickly.  In this case, the 'chapters' argument is one or more coverage types to run.  Possible coverage types:
+
+$(ls $(pwd)/coverage/*.xml | xargs -n 1 basename | sed 's/^coverage_//' | sed 's/\.xml$//')
+
+In coverage mode, -a is ignored; use -A instead.
+
+In coverage mode, -T is ignored; it always produces a no-chunk XHTML and a PDF.
+
+-T target: Specifies the make target.  Most of them are obvious.  Complete list:
+
+$(grep '^[a-z][a-z_]*:' scripts/Makefile | sed 's/:.*//' | sed 's/^/    /' | uniq)
+
+[chapters]: defaults to all chapters; if you specify less than all chapters, you must use -s or -t
+
+-S: Provide a shell when done (useful inside a container (i.e. docker))
+"
+  exit 1
+}
+
+shell="no"
+optlist=""
+run_chapters=""
+coverage=""
+builddir="build" 
+target="all"
+diff='maybe'
+
+while getopts "ndcC:a:A:sSthT:" opt
+do
+  case "$opt" in
+    c)    coverage="true"
+          run_chapters="true"
+          ;;
+    s)    optlist="$optlist -s"
+          run_chapters="true"
+          ;;
+    t)    optlist="$optlist -t"
+          run_chapters="true"
+          ;;
+    T)    target="$OPTARG";;
+    a)    archivedir="$OPTARG";;
+    A)    covarchivedir="$OPTARG";;
+    n)    diff='no';;
+    d)    diff='yes';;
+    S)    shell='yes';;
+    [?h]) usage;;
+  esac
+done
+
+if [ $OPTIND -gt 1 ]
+then
+  shift $(expr $OPTIND - 1)
+fi
+
+chapters="$*"
+
+if [ "$target" = "coverage" -a "$optlist" ]
+then
+  echo "
+
+Coverage is special; give no other options.
+
+"
+
+  usage
+fi
+
+if [ "$chapters" -a ! "$run_chapters" ]
+then
+  echo "
+
+Since you specified chapters, you need to specify -s or -t.  -t is faster.
+
+"
+
+  usage
+fi
+
+# Set up defaults
+if [ ! "$chapters" ]
+then
+  chapters="$(ls chapters/* | tr '\012' ' ')"
+fi
+
+if [ "$coverage" ]
+then
+  target="coverage"
+  test=""
+  new_chapters=""
+  for chapter in $chapters
+  do
+    chap="coverage/coverage_$chapter.xml"
+    if [ -f "$chap" ]
+    then
+      new_chapters="$new_chapters $chap"
+    else
+      echo "$chapter is not a valid coverage type"
+      exit 1
+    fi
+  done
+  chapters=$new_chapters
+  builddir="coverage/build"
+  archivedir=""
+fi
+
+#**********
+# Get the correct xsl version, which we'll need pretty much no
+# matter what.
+#**********
+if [ -f xml/docbook-xsl-1.78.1.zip \
+  -a "$(md5sum xml/docbook-xsl-1.78.1.zip 2>&1)" = '51ed42fe67ed513763c5bd9f1abd680b  xml/docbook-xsl-1.78.1.zip' ]
+then
+  echo "xsl already downloaded; if you think this is in error, delete xml/docbook-xsl-1.78.1.zip"
+else
+  rm -rf xml/docbook-xsl-1.78.1*
+  # it would be best not to go to a specific mirror like this, but
+  # it's not obivous how to fix that
+  wget https://astuteinternet.dl.sourceforge.net/project/docbook/docbook-xsl/1.78.1/docbook-xsl-1.78.1.zip -O xml/docbook-xsl-1.78.1.zip
+fi
+
+if [ -d xml/docbook-xsl-1.78.1 -a "$(find xml/docbook-xsl-1.78.1 | sort | wc -l 2>&1)" = '1945' ]
+then
+  echo "xsl already unpacked; if you think this is in error, delete xml/docbook-xsl-1.78.1/ and/or xml/docbook-xsl-1.78.1.zip"
+else
+  rm -rf xml/docbook-xsl-1.78.1/
+  bash -c "cd xml/ ; unzip docbook-xsl-1.78.1.zip"
+fi
+
+if [ "$(find xml/docbook-xsl-1.78.1 | sort | wc -l 2>&1)" != '1945' ]
+then
+  echo -e "\n\nI don't see valid unpacked xsl in xml/docbook-xsl-1.78.1; bailing.\n\n"
+  exit 1
+fi
+
+echo "chapters: $chapters"
+echo "optlist: $optlist"
+echo "target: $target"
+
+# See if we need to delete the cll.xml before we run make
+mkdir -p $builddir
+echo "$optlist $chapters" >$builddir/chapter-list.new
+if [ ! -f $builddir/chapter-list ]
+then
+  touch $builddir/chapter-list
+fi
+
+if [ "$(diff -q $builddir/chapter-list $builddir/chapter-list.new)" ]
+then
+  cp $builddir/chapter-list.new $builddir/chapter-list
+  echo -e "\nChapter list differences found; forcing a re-merge.\n"
+  rm -f $builddir/cll.xml
+fi
+
+make -f scripts/Makefile builddir="$builddir" test="$optlist" chapters="$chapters" covcopydir="$covarchivedir" copydir="$archivedir" $target
+
+if [ $diff = 'yes' ]
+then
+  ./scripts/diff_official -c
+fi
+if [ $diff = 'maybe' ]
+then
+  echo "Would you like to diff the new output against the last official/ build?  Ctrl-C or 'no' for no, anything else for yes."
+  read answer
+  if [ "$answer" != 'no' ]
+  then
+    ./scripts/diff_official -c
+  fi
+fi
+
+if [ "$shell" = 'yes' ]
+then
+  /bin/bash
+fi

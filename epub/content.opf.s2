@@ -1,0 +1,4 @@
+  </manifest>
+  <spine>
+    <itemref linear="yes" idref="cover"/>
+    <itemref linear="yes" idref="indexhtml"/>
