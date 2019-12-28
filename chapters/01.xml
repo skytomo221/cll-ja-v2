@@ -1,5 +1,5 @@
 <chapter xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="chapter-about">
-  <title><anchor xml:id="c1"/>Lojban As We Mangle It In Lojbanistan: About This Book</title>
+  <title><anchor xml:id="c1"/>ロジバニスタンのロジバンを台無しにするロジバン：この本について</title>
   <mediaobject xml:id="chapter-about-picture">
     <textobject><phrase>The picture for chapter 1</phrase></textobject>
     <imageobject>
@@ -8,82 +8,79 @@
   </mediaobject>
   
   <section xml:id="section-what-is-lojban">
-    <title><anchor xml:id="c1s1"/>What is Lojban?</title>
+    <title><anchor xml:id="c1s1"/>ロジバンとは何か</title>
 
-    <para> <indexterm type="general"><primary>Logical Language Group</primary><secondary>relation to Lojban</secondary></indexterm>  <indexterm type="general"><primary>Lojban</primary><secondary>history of</secondary></indexterm> Lojban (pronounced 
-    <quote>LOZH-bahn</quote>) is a constructed language. Previous versions of the language were called 
-    <quote>Loglan</quote> by Dr. James Cooke Brown, who founded the Loglan Project and started the development of the language in 1955. The goals for the language were first described in the open literature in the article 
+    <para> <indexterm type="general"><primary>Logical Language Group</primary><secondary>relation to Lojban</secondary></indexterm>  <indexterm type="general"><primary>Lojban</primary><secondary>history of</secondary></indexterm> ロジバン（Lojban）は人工言語である。 この言語の前身として作られた言語は、ログランプロジェクトを設立し、1955年に言語の開発を始めたジェームズ・クック・ブラウン（James Cooke Brown）博士によって「ログラン（Loglan）」と呼ばれていた。
     
     
-    <citetitle pubwork="article">Loglan</citetitle>, published in 
-    <citetitle pubwork="journal">Scientific American</citetitle>, June, 1960. Made well-known by that article and by occasional references in science fiction (most notably in Robert Heinlein's novel 
+    1960年6月に<citetitle pubwork="journal">Scientific American</citetitle>誌に掲載された論文「ログラン（<citetitle pubwork="article">Loglan</citetitle>）で、言語の目標が初めて公開された。
     
-    <citetitle pubwork="book">The Moon Is A Harsh Mistress</citetitle>) and computer publications, Loglan and Lojban have been built over four decades by dozens of workers and hundreds of supporters, led since 1987 by The Logical Language Group (who are the publishers of this book).</para>
-    <para> <indexterm type="general"><primary>Lojban</primary><secondary>features of</secondary></indexterm> There are thousands of artificial languages (of which Esperanto is the best-known), but Loglan/Lojban has been engineered to make it unique in several ways. The following are the main features of Lojban:</para>
+    その論文と、SF小説（ロバートハインラインの小説『月は無慈悲な夜の女王（<citetitle pubwork="book">The Moon Is A Harsh Mistress</citetitle>）』など）やコンピュータ出版物で時折引用されることで有名になった。ログランとロジバンは、1987年以降、（この本の出版元である）The Logical Language Groupが率いた数十人の職員と数百人の支援者によって四十年にわたって構築されてきた。</para>
+    <para> <indexterm type="general"><primary>Lojban</primary><secondary>features of</secondary></indexterm> 数千の人工言語があるが（そのうちエスペラント語が最も有名である）、 ログランとロジバンはいくつかの方法でユニークになるように設計されている。ロジバンの主な機能は次のとおりである：</para>
     <itemizedlist role="bullets">
       <listitem>
-        <para>Lojban is designed to be used by people in communication with each other, and possibly in the future with computers.</para>
+        <para>ロジバンは、相互にコミュニケーションする人々が使用するように設計されており、将来的にはコンピューターとコミュニケーションする可能性がある。</para>
       </listitem>
       <listitem>
-        <para>Lojban is designed to be neutral between cultures.</para>
+        <para>ロジバンは、文化間で中立（neutral）になるように設計されている。</para>
       </listitem>
       <listitem>
-        <para>Lojban grammar is based on the principles of predicate logic.</para>
+        <para>ロジバンの文法は、述語論理（predicate logic）の原則に基づいている。</para>
       </listitem>
       <listitem>
-        <para>Lojban has an unambiguous yet flexible grammar.</para>
+        <para>ロジバンには曖昧さがなく（unambiguous）、それでいて柔軟な（flexible）文法がある。</para>
       </listitem>
       <listitem>
-        <para>Lojban has phonetic spelling, and unambiguously resolves its sounds into words.</para>
+        <para>ロジバンには音声表記（phonetic spelling）があり、その音を明確に（unambiguously）単語に分解する。（スペルと音が一致し、音から単語が一意的に決まる）</para>
       </listitem>
       <listitem>
-        <para>Lojban is simple compared to natural languages; it is easy to learn.</para>
+        <para>ロジバンは、自然言語に比べて単純（simple）で、学ぶのは簡単（easy）である。</para>
       </listitem>
       <listitem>
-        <para>Lojban's 1300 root words can be easily combined to form a vocabulary of millions of words.</para>
+        <para>ロジバンの1300単語の根語（root words）を簡単に組み合わせて、数百万語の語彙を作成できる。</para>
       </listitem>
       <listitem>
-        <para>Lojban is regular; the rules of the language are without exceptions.</para>
+        <para>ロジバンは規則的（regular）で、言語の規則には例外がない。</para>
       </listitem>
       <listitem>
-        <para>Lojban attempts to remove restrictions on creative and clear thought and communication.</para>
+        <para>ロジバンは、創造的で明確な、思考とコミュニケーションの制限（restrictions）を取り除こうとする。</para>
       </listitem>
       <listitem>
-        <para>Lojban has a variety of uses, ranging from the creative to the scientific, from the theoretical to the practical.</para>
+        <para>ロジバンには、創造的（creative）なものから科学的（scientific）なもの、理論的（theoretical）なものから実用的（practical）なものまで、さまざまな用途がある。</para>
       </listitem>
       <listitem>
-        <para>Lojban has been demonstrated in translation and in original works of prose and poetry.</para>
+        <para>ロジバンは、翻訳のほか、散文や詩のオリジナル作品で実証されている。</para>
       </listitem>
     </itemizedlist>
   </section>
   <section xml:id="section-what-is-cll">
-    <title><anchor xml:id="c1s2"/>What is this book?</title>
-    <para> <indexterm type="general"><primary>goal of this book</primary></indexterm>  <indexterm type="general"><primary>this book</primary><secondary>goal of</secondary></indexterm>  <indexterm type="general"><primary>reference grammar</primary></indexterm> This book is what is called a 
-    <quote>reference grammar</quote>. It attempts to expound the whole Lojban language, or at least as much of it as is understood at present. Lojban is a rich language with many features, and an attempt has been made to discover the functions of those features. The word 
+    <title><anchor xml:id="c1s2"/>この本は何か？</title>
+    <para> <indexterm type="general"><primary>goal of this book</primary></indexterm>  <indexterm type="general"><primary>this book</primary><secondary>goal of</secondary></indexterm>  <indexterm type="general"><primary>reference grammar</primary></indexterm> この本は、
+    「参照文法（<quote>reference grammar</quote>）」と呼ばれるものである。ロジバン言語全体、または少なくとも現在理解されている言語の多くを説明しようとする。ロジバンは多くの機能を備えたリッチな言語であり、それらの機能の機能を発見する（discover）試みがなされている。「発見する（
     
-    <quote>discover</quote> is used advisedly; Lojban was not 
-    <quote>invented</quote> by any one person or committee. Often, grammatical features were introduced into the language long before their usage was fully understood. Sometimes they were introduced for one reason, only to prove more useful for other reasons not recognized at the time.</para>
-    <para>By intention, this book is complete in description but not in explanation. For every rule in the formal Lojban grammar (given in 
-    <xref linkend="chapter-grammars"/>), there is a bit of explanation and an example somewhere in the book, and often a great deal more than a bit. In essence, 
-    <xref linkend="chapter-tour"/> gives a brief overview of the language, 
-    <xref linkend="chapter-grammars"/> gives the formal structure of the language, and the chapters in between put semantic flesh on those formal bones. I hope that eventually more grammatical material founded on (or even correcting) the explanations in this book will become available.</para>
-    <para> <indexterm type="general"><primary>linguistic drift</primary></indexterm>  <indexterm type="general"><primary>Lojban</primary><secondary>stability of</secondary></indexterm> Nevertheless, the publication of this book is, in one sense, the completion of a long period of language evolution. With the exception of a possible revision of the language that will not even be considered until five years from publication date, and any revisions of this book needed to correct outright errors, the language described in this book will not be changing by deliberate act of its creators any more. Instead, language change will take place in the form of new vocabulary &ndash; Lojban does not yet have nearly the vocabulary it needs to be a fully usable language of the modern world, as 
-    <xref linkend="chapter-lujvo"/> explains &ndash; and through the irregular natural processes of drift and (who knows?) native-speaker evolution. (Teach your children Lojban!) You can learn the language described here with assurance that (unlike previous versions of Lojban and Loglan, as well as most other artificial languages) it will not be subject to further fiddling by language-meisters.</para>
-    <para> <indexterm type="general"><primary>this book</primary><secondary>structure of</secondary></indexterm>  <indexterm type="general"><primary>structure of this book</primary></indexterm> It is probably worth mentioning that this book was written somewhat piecemeal. Each chapter began life as an explication of a specific Lojban topic; only later did these begin to clump together into a larger structure of words and ideas. Therefore, there are perhaps not as many cross-references as there should be. However, I have attempted to make the index as comprehensive as possible.</para>
-    <para> <indexterm type="general"><primary>chapter titles</primary><secondary>intent of</secondary></indexterm>  <indexterm type="general"><primary>jokes</primary></indexterm>  <indexterm type="general"><primary>Lojbanistan</primary></indexterm> Each chapter has a descriptive title, often involving some play on words; this is an attempt to make the chapters more memorable. The title of 
-    <xref linkend="chapter-about"/> (which you are now reading), for example, is an allusion to the book 
-    <citetitle pubwork="book">English As We Speak It In Ireland</citetitle>, by P. W. Joyce, which is a sort of informal reference grammar of Hiberno-English. 
+    <quote>discover</quote>）」という言葉は熟考のうえで使用される。ロジバンは、特定の個人やグループによって「発明された（
+    <quote>invented</quote>）」わけではない。しばしば、文法機能は、その使用法が完全に理解されるずっと前に言語に導入された。時には、ある理由で導入されたが、当時は認識されていなかった他の理由で、より有用であることが証明された。</para>
+    <para>意図的にこの本は記述では完全であるが説明ではない。形式的なロジバン文法（
+    <xref linkend="chapter-grammars"/>参照）のすべての規則に対して、この本のどこかに少しの説明と例があり、多くの場合はかなりの量がある。本質的に、
+    <xref linkend="chapter-tour"/>は言語の概要を簡潔に示し、
+    <xref linkend="chapter-grammars"/>は言語の形式的構造を示し、その間の章はそれらの形式的な骨に意味論的な肉付けをする。いずれは、この本の中の説明をもとにした、より多くの文法的な題材が出てくること（または修正すること）を願っている。</para>
+    <para> <indexterm type="general"><primary>linguistic drift</primary></indexterm>  <indexterm type="general"><primary>Lojban</primary><secondary>stability of</secondary></indexterm>それにもかかわらず、この本の出版は、ある意味で、言語の長い進化の完成である。出版後5年が経過しても言語の改訂が検討されない可能性があることと、完全な誤りを正すために本書の改訂が必要であることを除けば、本書に記述されている言語は、作者の意図的な行為によってこれ以上変わることはないだろう。代わりに、言語の変更は新しい語彙（ロジバンは、
+    <xref linkend="chapter-lujvo"/>で説明するように、現代世界の完全に使用可能な言語であるために必要な語彙がまだほとんどない。）の形でドリフト（誰が知っているか？）とネイティブスピーカーの進化（お子様にロジバンを教えていただきたい！）という不規則な自然のプロセスを通じて行われる。ここで説明されている言語は、（以前のバージョンのロジバンやログランと同様に、他のほとんどの人工言語とは異なり）言語マイスターによるさらなるいじりの対象にならないことを保証して学ぶことができる。</para>
+    <para> <indexterm type="general"><primary>this book</primary><secondary>structure of</secondary></indexterm>  <indexterm type="general"><primary>structure of this book</primary></indexterm>この本が少し断片的に書かれていることはおそらく言及する価値があるだろう。各章は、特定のロジバントピックの説明として始まった。後になって、これらはひとまとめになって、より大きな単語とアイデアの構造になり始めた。したがって、おそらく相互参照はそれほど多く存在しない。ただし、インデックスをできるだけ包括的にしようと試みた。</para>
+    <para> <indexterm type="general"><primary>chapter titles</primary><secondary>intent of</secondary></indexterm>  <indexterm type="general"><primary>jokes</primary></indexterm>  <indexterm type="general"><primary>Lojbanistan</primary></indexterm>各章には説明的なタイトルがあり、多くの場合、言葉の遊びが含まれている。これは、章をより思い出深いものにする試みである。たとえば、
+    <xref linkend="chapter-about"/>（今読んでいるこの章）のタイトルは、パトリック・ウェストン・ジョイス（P. W. Joyce）の著書「英語のようにアイルランドで語る英語（
+    <citetitle pubwork="book">English As We Speak It In Ireland</citetitle>）をほのめかすもので、アイルランド英語の非公式の参照文法である。
     
-    <quote>Lojbanistan</quote> is both an imaginary country where Lojban is the native language, and a term for the actual community of Lojban-speakers, scattered over the world. Why 
+    「ロジバニスタン（<quote>Lojbanistan</quote>）」は、ロジバンが母国語である想像上の国であり、世界中に散在するロジバン語話者の実際のコミュニティの用語でもある。
     
-    <quote>mangle</quote>? As yet, nobody in the real Lojbanistan speaks the language at all well, by the standards of the imaginary Lojbanistan; that is one of the circumstances this book is meant to help remedy.</para>
+    なぜ「台無しにする（<quote>mangle</quote>）」か？まだ、想像上のロジバニスタンの基準では、本物のロジバニスタンの誰も、言語をまったく上手に話せていない。それは、この本が治療を助けることを意図している状況の一つである。</para>
     
   </section>
   <section xml:id="section-conventions">
-    <title><anchor xml:id="c1s3"/>What are the typographical conventions of this book?</title>
+    <title><anchor xml:id="c1s3"/>この本の表記方法は何か？</title>
     
-    <para>Each chapter is broken into numbered sections; each section contains a mixture of expository text, numbered examples, and possibly tables.</para>
-    <para> <indexterm type="general"><primary>this book</primary><secondary>examples of</secondary></indexterm>  <indexterm type="general"><primary>examples in this book</primary></indexterm> The reader will notice a certain similarity in the examples used throughout the book. One chapter after another rings the changes on the self-same sentences:</para>
+    <para>各章は番号付きのセクションに分かれている。各セクションには、その中には解説文、番号付きの例文、および場合によっては表が混在している。</para>
+    <para> <indexterm type="general"><primary>this book</primary><secondary>examples of</secondary></indexterm>  <indexterm type="general"><primary>examples in this book</primary></indexterm>本書で使用されている例には、ある程度の類似性があります。次の章から次の章へと、同じ文章の変化を繰り返す。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-hrtj">
       <title>
         
@@ -95,212 +92,204 @@
       </title>
       <interlinear-gloss>
         <jbo>mi klama le zarci</jbo>
-        <gloss>I go-to that-which-I-describe-as-a store.</gloss>
-        <natlang>I go to the store.</natlang>
+        <gloss>私 ～へ行く 私が～と呼ぶ 店</gloss>
+        <natlang>私は店へ行く</natlang>
       </interlinear-gloss>
     </example>
-    <para role="noindent">  will become wearisomely familiar before 
-    <xref linkend="chapter-grammars"/> is reached. This method is deliberate; I have tried to use simple and (eventually) familiar examples wherever possible, to avoid obscuring new grammatical points with new vocabulary. Of course, this is not the method of a textbook, but this book is not a textbook (although people have learned Lojban from it and its predecessors). Rather, it is intended both for self-learning (of course, at present would-be Lojban teachers must be self-learners) and to serve as a reference in the usual sense, for looking up obscure points about the language.</para>
-    <para> <indexterm type="general"><primary>examples</primary><secondary>structure of</secondary></indexterm>  <indexterm type="general"><primary>structure of examples</primary></indexterm>  <indexterm type="general"><primary>example of examples</primary></indexterm> It is useful to talk further about 
-    <xref linkend="example-random-id-hrtj"/> for what it illustrates about examples in this book. Examples usually occupy three lines. The first of these is in Lojban (in italics), the second in a word-by-word literal translation of the Lojban into English (in boldface), and the third in colloquial English. The second and third lines are sometimes called the 
+    <para role="noindent">これは、
+    <xref linkend="chapter-grammars"/>に到達するまでには、うんざりするほどなじみ深いものになるだろう。この方法は意図的である。私は、新しい文法的なポイントを新しい語彙で覆い隠すことを避けるために、できるだけ簡単で（最終的に）なじみのある例を使おうとした。もちろんこれは教科書の方法ではないが、この本は教科書ではない（しかし、人々はロジバンとその前任者たちからロジバンを学んだ）。むしろ、自己学習(もちろん、現在ロジバンの教師になろうとする人は自己学習者でなければならない)と、通常の意味での参照として、言語に関するあいまいな点を調べることの両方を目的としている。</para>
+    <para> <indexterm type="general"><primary>examples</primary><secondary>structure of</secondary></indexterm>  <indexterm type="general"><primary>structure of examples</primary></indexterm>  <indexterm type="general"><primary>example of examples</primary></indexterm>本書の例について説明している
+    <xref linkend="example-random-id-hrtj"/>について、さらに説明しておくと役立つだろおう。例は通常、3行で構成される。これらの最初のものはロジバン（イタリック体）で、2番目はロジバンの単語ごとの逐語訳（太字）、および3番目は日本語（原文では口語英語、colloquial English）である。 2行目と3行目は、それぞれ「逐語訳（<quote>literal translation</quote>）」と「口語訳（<quote>colloquial translation</quote>）」と呼ばれることがある。 時には、それによって明瞭さが犠牲にされない場合、一方または両方が省略される。ロジバン文が複数ある場合は、一般に同じ意味を持つことを意味する。</para>
+    <para> <indexterm type="general"><primary>square brackets</primary><secondary>use of in notation</secondary></indexterm>単語は角括弧で囲まれることがある。ロジバンのテキストでは、これらは（特定の例の文脈で）省略されたり含まれたりすることがある、任意の文法的な粒子を囲む。逐語訳では、特定のロジバン語（Lojban words）の通常の翻訳として使用されるが、日本語（原文では英語）の単語が示唆する正確な意味や用法を持たない単語を含む。
     
-    <quote>literal translation</quote> and the 
-    <quote>colloquial translation</quote> respectively. Sometimes, when clarity is not sacrificed thereby, one or both are omitted. If there is more than one Lojban sentence, it generally means that they have the same meaning.</para>
-    <para> <indexterm type="general"><primary>square brackets</primary><secondary>use of in notation</secondary></indexterm> Words are sometimes surrounded by square brackets. In Lojban texts, these enclose optional grammatical particles that may (in the context of the particular example) be either omitted or included. In literal translations, they enclose words that are used as conventional translations of specific Lojban words, but don't have exactly the meanings or uses that the English word would suggest. In 
+    <xref linkend="chapter-phonology"/>では、国際音声記号（International Phonetic Alphabet）の表音表現を角括弧で囲む。</para>
     
-    <xref linkend="chapter-phonology"/>, square brackets surround phonetic representations in the International Phonetic Alphabet.</para>
-    
-    <para> <indexterm type="general"><primary>grammatical categories</primary><secondary>use of upper case for</secondary></indexterm>  <indexterm type="general"><primary>tables</primary><secondary>format of</secondary></indexterm> Many of the tables, especially those placed at the head of various sections, are in three columns. The first column contains Lojban words discussed in that section; the second column contains the grammatical category (represented by an UPPER CASE Lojban word) to which the word belongs, and the third column contains a brief English gloss, not necessarily or typically a full explanation. Other tables are explained in context.</para>
-    <para> <indexterm type="general"><primary>technical terms</primary></indexterm> A few Lojban words are used in this book as technical terms. All of these are explained in 
-    
-    <xref linkend="chapter-tour"/>, except for a few used only in single chapters, which are explained in the introductory sections of those chapters.</para>
+    <para> <indexterm type="general"><primary>grammatical categories</primary><secondary>use of upper case for</secondary></indexterm>  <indexterm type="general"><primary>tables</primary><secondary>format of</secondary></indexterm>表の多く、特にさまざまなセクションの先頭に配置されているテーブルは、3列になっている。最初の列には、そのセクションで説明したロジバン語が含まれている。2番目の列には単語が属する文法カテゴリ（大文字のロジバン単語で表される）が含まれ、3番目の列には簡単な英語の意味（gloss）が含まれている。その他の表については、コンテキスト内で説明する。</para>
+    <para> <indexterm type="general"><primary>technical terms</primary></indexterm>本書ではロジバンのいくつかの用語を技術用語として使用している。単一の章でのみ使用されるいくつかの例外を除き、これらのすべては<xref linkend="chapter-tour"/>で説明されている。</para>
   </section>
   <section xml:id="section-disclaimers">
-    <title><anchor xml:id="c1s4"/>Disclaimers</title>
-    <para> <indexterm type="general"><primary>disclaimers</primary></indexterm> It is necessary to add, alas, that the examples used in this book do not refer to any existing person, place, or institution, and that any such resemblance is entirely coincidental and unintentional, and not intended to give offense.</para>
-    <para> <indexterm type="general"><primary>dictionary</primary><secondary>superior authority of</secondary></indexterm> When definitions and place structures of gismu, and especially of lujvo, are given in this book, they may differ from those given in the English-Lojban dictionary (which, as of this writing, is not yet published). If so, the information given in the dictionary supersedes whatever is given here.</para>
+    <title><anchor xml:id="c1s4"/>免責事項</title>
+    <para> <indexterm type="general"><primary>disclaimers</primary></indexterm>残念ながら、本書で使用されている例はいかなる既存の人、場所、または機関にも言及しておらず、そのような類似性は全く偶然で意図的ではなく、罪を犯す意図のないものであることを追記する必要がある。</para>
+    <para> <indexterm type="general"><primary>dictionary</primary><secondary>superior authority of</secondary></indexterm>このマニュアルで、ギスム（gismu）、特にルジヴォ（lujvo）の定義と場所の構造が示されている場合は、English-Lojban Dictionary（この記事を書いている時点ではまだ公開されていない）とは異なる場合がある。もしそうなら、辞書で与えられた情報はここで与えられたものより優先される。</para>
   </section>
   <section xml:id="credits">
-    <title><anchor xml:id="c1s5"/>Acknowledgements and Credits</title>
-    <para> <indexterm type="general"><primary>LLG</primary></indexterm>  <indexterm type="general"><primary>this book</primary><secondary>author of</secondary></indexterm>  <indexterm type="general"><primary>author of this book</primary></indexterm> Although the bulk of this book was written for the Logical Language Group (LLG) by John Cowan, who is represented by the occasional authorial 
+    <title><anchor xml:id="c1s5"/>謝辞</title>
+    <para> <indexterm type="general"><primary>LLG</primary></indexterm>  <indexterm type="general"><primary>this book</primary><secondary>author of</secondary></indexterm>  <indexterm type="general"><primary>author of this book</primary></indexterm> この本の大部分は、ジョン・W・コワン（John Cowan）によってLogical Language Groupのために書かれた。ジョン・W・コワンは、時折、著者<quote>I</quote>として代表されているが、最初に他の人によって書かれた章があり、その後、この本に合うように私によって大幅に編集された。</para>
+    <para> <indexterm type="general"><primary>this book</primary><secondary>contributors to</secondary></indexterm>  <indexterm type="general"><primary>contributors to this book</primary></indexterm>特に、
+    <xref linkend="chapter-tour"/>は、最初は別々だった文書が、アセルスタン（Athelstan）とノラ・タンスキー・レシュバリエ（Nora Tansky LeChevalier）とボブ・レシュバリエ（Bob LeChevalier）によって1つずつ融合されたものである。
+    <xref linkend="chapter-phonology"/>と
+    <xref linkend="chapter-morphology"/>は元々、ボブ・レシュバリエによって書かれ、チャック・バートン（Chuck Barton）によって寄稿された。
+    <xref linkend="chapter-lujvo"/>はもともと、ニック・ニコラス（Nick Nicholas）によって（ずっと長い形で）書かれた。
+    <xref linkend="chapter-attitudinals"/>の終わり近くの会話は、ノラ・タンスキー・レシュバリエによってもたらされた。
+    <xref linkend="chapter-negation"/>と
+    <xref linkend="chapter-quantifiers"/>の一部はボブ・レシュバリエによって書かれた。
     
-    <quote>I</quote>, certain chapters were first written by others and then heavily edited by me to fit into this book.</para>
-    <para> <indexterm type="general"><primary>this book</primary><secondary>contributors to</secondary></indexterm>  <indexterm type="general"><primary>contributors to this book</primary></indexterm> In particular: 
-    <xref linkend="chapter-tour"/> is a fusion of originally separate documents, one by Athelstan, and one by Nora Tansky LeChevalier and Bob LeChevalier; 
-    <xref linkend="chapter-phonology"/> and 
-    <xref linkend="chapter-morphology"/> were originally written by Bob LeChevalier with contributions by Chuck Barton; 
-    <xref linkend="chapter-lujvo"/> was originally written (in much longer form) by Nick Nicholas; the dialogue near the end of 
-    <xref linkend="chapter-attitudinals"/> was contributed by Nora Tansky LeChevalier; 
-    <xref linkend="chapter-negation"/> and parts of 
-    <xref linkend="chapter-quantifiers"/> were originally by Bob LeChevalier; and the YACC grammar in 
+    <xref linkend="chapter-grammars"/>のYACCの文法は、何人かの手によるものだが、主にボブ・レシュバリエとジェフ・テイラー（Jeff Taylor）が担当している。BNFの文法も
+    <xref linkend="chapter-grammars"/>にあるが、もともと私が書いたものを、その後クラーク・ネルソンが書き直し、最後にもう一度私が書いた。</para>
+    <para> <indexterm type="general"><primary>this book</primary><secondary>credits for</secondary></indexterm>  <indexterm type="general"><primary>credits for this book</primary></indexterm>
+    <xref linkend="chapter-selbri"/>の各部分で題材を描く自然言語の研究は、イヴァン・デルジャンスキー（Ivan Derzhanski）によって行われた。LLGは、自分の研究成果を利用する許可を得たことを認めている。</para>
     
-    <xref linkend="chapter-grammars"/> is the work of several hands, but is primarily by Bob LeChevalier and Jeff Taylor. The BNF grammar, which is also in 
-    <xref linkend="chapter-grammars"/>, was originally written by me, then rewritten by Clark Nelson, and finally touched up by me again.</para>
-    <para> <indexterm type="general"><primary>this book</primary><secondary>credits for</secondary></indexterm>  <indexterm type="general"><primary>credits for this book</primary></indexterm> The research into natural languages from which parts of 
-    <xref linkend="chapter-selbri"/> draw their material was performed by Ivan Derzhanski. LLG acknowledges his kind permission to use the fruits of his research.</para>
+    <para> <indexterm type="general"><primary>pictures</primary><secondary>credits for</secondary></indexterm>  <indexterm type="general"><primary>credits for pictures</primary></indexterm>この本の絵はノラ・タンスキー・レシュバリエが描いたものであるが、
     
-    <para> <indexterm type="general"><primary>pictures</primary><secondary>credits for</secondary></indexterm>  <indexterm type="general"><primary>credits for pictures</primary></indexterm> The pictures in this book were drawn by Nora Tansky LeChevalier, except for the picture appearing in 
+    <xref linkend="chapter-morphology"/>に登場するのはシルヴィア・ルティサー・リッセル（Sylvia Rutiser Rissell）である。</para>
+    <para>この索引はノラ・タンスキー・レシュバリエによって作成された。</para>
+    <para> <indexterm type="general"><primary>this book</primary><secondary>reviewers of</secondary></indexterm>  <indexterm type="general"><primary>reviewers of this book</primary></indexterm>詳細なレビュー、提案、コメント、そしてロジバン、論理、英語、そして相互参照における私の恥ずかしい間違いを早期に発見してくれた以下の人々に感謝したい：ニック・ニコラス、マーク・ショールソン（Mark Shoulson）、ヴェイジョ・ヴィルヴァ（Veijo Vilva）、コリン・ファイン（Colin Fine）、アンド・ロスタ（And Rosta）、ホルヘ・ランビアス（Jorge Llambias）、イアン・アレクサンダー（Iain Alexander）、パウロ・S・L・M・バレット（Paulo S. L. M. Barreto）、ロバート・J・シャッセル（Robert J. Chassell）、ゲイル・コーワン（Gale Cowan）、カレン・スタイン（Karen Stein）、イヴァン・デルジャンスキー、ジム・カーター（Jim Carter）、アイリーン・ゲイツ（Irene Gates）、ボブ・レシュバリエ、ジョン・パークス・クリフォード（John Parks-Clifford）（別名、<quote>pc</quote>)、そしてノラ・タンスキー・レシュバリエ。</para>
+    <para>ニック・ニコラス（NSN）、マーク・ショールソン、ヴェイジョ・ヴィルヴァ、コリン・ファイン、アンド・ロスタ、イアン・アレクサンダーのロジバニストの皆様のご意見、ご感想に感謝申し上げる。ジョン・コーワン（John Cowan）、豊富なコメント、ロジバン文法の先駆者としての模範、NSNの
+    <valsi valid='maybe'>manskapi</valsi>のジレンマの解決。ホルヘ・ランビアスは、さらに広範なコメントをして、NSNに自分の考えている以上のことを考えさせてくれた。ボブ・レシュバリエ氏は、この問題について懐疑的な見方をしていたこと、励ましてくれたこと、そしてロジバンの全テキストを探し出してくれたことで、彼のコンピュータにはルジヴォという重荷が課せられていた。ノラ・タンスキー・レシュバリエ、NSNが恥ずかしいエラーを避けるために、古いラフシテキストを新しいラフシテキストに変換するプログラムを作成してくれた。ジム・カーター氏は、ルジヴォのアルゴリズム分析に粘り強く取り組み、それがこの研究のヒントとなり、最初に3つのルジヴォクラスを特定してくれた。</para>
     
-    <xref linkend="chapter-morphology"/>, which is by Sylvia Rutiser Rissell.</para>
-    <para>The index was made by Nora Tansky LeChevalier.</para>
-    <para> <indexterm type="general"><primary>this book</primary><secondary>reviewers of</secondary></indexterm>  <indexterm type="general"><primary>reviewers of this book</primary></indexterm> I would like to thank the following people for their detailed reviews, suggestions, comments, and early detection of my embarrassing errors in Lojban, logic, English, and cross-references: Nick Nicholas, Mark Shoulson, Veijo Vilva, Colin Fine, And Rosta, Jorge Llambias, Iain Alexander, Paulo S. L. M. Barreto, Robert J. Chassell, Gale Cowan, Karen Stein, Ivan Derzhanski, Jim Carter, Irene Gates, Bob LeChevalier, John Parks-Clifford (also known as 
-    <quote>pc</quote>), and Nora Tansky LeChevalier.</para>
-    <para>Nick Nicholas (NSN) would like to thank the following Lojbanists: Mark Shoulson, Veijo Vilva, Colin Fine, And Rosta, and Iain Alexander for their suggestions and comments; John Cowan, for his extensive comments, his exemplary trailblazing of Lojban grammar, and for solving the 
-    <valsi valid='maybe'>manskapi</valsi> dilemma for NSN; Jorge Llambias, for his even more extensive comments, and for forcing NSN to think more than he was inclined to; Bob LeChevalier, for his skeptical overview of the issue, his encouragement, and for scouring all Lojban text his computer has been burdened with for lujvo; Nora Tansky LeChevalier, for writing the program converting old rafsi text to new rafsi text, and sparing NSN from embarrassing errors; and Jim Carter, for his dogged persistence in analyzing lujvo algorithmically, which inspired this research, and for first identifying the three lujvo classes.</para>
-    
-    <para> <indexterm type="general"><primary>Brown</primary><secondary>James Cooke</secondary></indexterm> Of course, the entire Loglan Project owes a considerable debt to James Cooke Brown as the language inventor, and also to several earlier contributors to the development of the language. Especially noteworthy are Doug Landauer, Jeff Prothero, Scott Layson, Jeff Taylor, and Bob McIvor. Final responsibility for the remaining errors and infelicities is solely mine.</para>
+    <para> <indexterm type="general"><primary>Brown</primary><secondary>James Cooke</secondary></indexterm>もちろん、ログランプロジェクト全体は、言語の発明者であるジェームズ・クック・ブラウン（James Cooke Brown）氏と、言語の開発に貢献した数名の人物には多大なご恩がある。特に注目すべきはダグ・ランダウアー（Doug Landauer）、ジェフ・プロテーロ（Jeff Prothero）、スコット・レイソン（Scott Layson）、ジェフ・テイラー（Jeff Taylor）、ボブ・マクアイバー（Bob McIvor）だ。残りの誤りと不備に対する最終的な責任は私にある。</para>
     
   </section>
   <section xml:id="section-bibliography">
-    <title><anchor xml:id="c1s6"/>Informal Bibliography</title>
-    <para> <indexterm type="general"><primary>Loglan</primary></indexterm>  <indexterm type="general"><primary>bibliography</primary></indexterm> The founding document for the Loglan Project, of which this book is one of the products, is 
-    <citetitle pubwork="book">Loglan 1: A Logical Language</citetitle> by James Cooke Brown (4th ed. 1989, The Loglan Institute, Gainesville, Florida, U.S.A.). The language described therein is not Lojban, but is very close to it and may be considered an ancestral version. It is regrettably necessary to state that nothing in this book has been approved by Dr. Brown, and that the very existence of Lojban is disapproved of by him.</para>
+    <title><anchor xml:id="c1s6"/>略式文献目録</title>
+    <para> <indexterm type="general"><primary>Loglan</primary></indexterm>  <indexterm type="general"><primary>bibliography</primary></indexterm>この本が製品の一つであるログランプロジェクトの設立文書は、ジェームズ・クック・ブラウンによる
+    <citetitle pubwork="book">Loglan 1: A Logical Language</citetitle>（第4版、1989年、米国フロリダ州ゲインズビルにあるログラン研究所（The Loglan Institute））である。そこに記述されている言語はロジバンではないが、それに非常に近く、先祖のバージョンと考えられる。残念なことに、本書の中でブラウン博士によって承認されたものはなく、ロジバンの存在そのものが彼によって否認されていると述べる必要がある。</para>
     
-    <para>The logic of Lojban, such as it is, owes a good deal to the American philosopher W. v.O. Quine, especially 
-    <citetitle pubwork="book">Word and Object</citetitle> (1960, M.I.T. Press). Much of Quine's philosophical writings, especially on observation sentences, reads like a literal translation from Lojban.</para>
+    <para>このようなロジバンの論理は、米国の哲学者、ウィラード・ヴァン・オーマン・クワイン（W. v.O. Quine）、特に<citetitle pubwork="book">Word and Object</citetitle>（1960年、M.I.T.Press）に負うところが大きい。クインの哲学的著作の多くは、特に観察文に関するもので、ロジバンの逐語訳のように読める。</para>
     
-    <para>The theory of negation expounded in 
-    <xref linkend="chapter-negation"/> is derived from a reading of Laurence Horn's work 
-    <citetitle pubwork="book">A Natural History of Negation</citetitle>.</para>
-    <para>Of course, neither Brown nor Quine nor Horn is in any way responsible for the uses or misuses I have made of their works.</para>
+    <para><xref linkend="chapter-negation"/>で説明されている否定の理論は、ローレンス・ホーンの<citetitle pubwork="book">A Natural History of Negation</citetitle>を読んだことに由来している。</para>
+    <para>もちろん、ブラウン、クワイン、およびホーンは、私が彼らの作品に対して行った使用または誤用についていかなる責任も負いません。</para>
     
-    <para> <indexterm type="general"><primary>books about Lojban</primary></indexterm> Depending on just when you are reading this book, there may be three other books about Lojban available: a textbook, a Lojban/English dictionary, and a book containing general information about Lojban. You can probably get these books, if they have been published, from the same place where you got this book. In addition, other books not yet foreseen may also exist.</para>
+    <para> <indexterm type="general"><primary>books about Lojban</primary></indexterm>この本を読んでいる時期によっては、ロジバンに関する他の3冊の本がある：教科書、ロジ英辞書、およびロジバンに関する一般情報を含む本である。これらの本が出版されている場合は、この本を入手した場所から入手できる。さらに、まだ予見されていない他の本も存在する可能性がある。</para>
     
   </section>
   <section xml:id="section-captions">
     <title><anchor xml:id="c1s7"/>Captions to Pictures</title>
-    <para>The following examples list the Lojban caption, with a translation, for the picture at the head of each chapter. If a chapter's picture has no caption, 
-      <quote>(none)</quote> is specified instead.</para>
+    <para>次の例は、各章の冒頭にある写真のロジバンキャプションと翻訳を示している。 章の画像にキャプションがない場合は、代わりに
+      <quote>（なし）</quote>が指定される。</para>
     <para role="allowbreaks"/>
     <informaltable class="vertsep">
       <colgroup/>
-        <tr><td><link linkend="chapter-about-picture">Chapter 1</link></td><td>
+        <tr><td><link linkend="chapter-about-picture">第1章</link></td><td>
             <para><jbophrase>coi .lojban.</jbophrase></para>
-            <para>Greetings, O Lojban!</para>
+            <para>こんにちは、ロジバン！</para>
             <para><jbophrase>coi rodo</jbophrase></para>
-            <para>Greetings, all-of you</para>
+            <para>こんにちは、みなさん</para>
         </td></tr>
-        <tr><td><link linkend="chapter-tour-picture">Chapter 2</link></td><td>
-          <para> (none) </para>
+        <tr><td><link linkend="chapter-tour-picture">第2章</link></td><td>
+          <para>（なし）</para>
         </td></tr>
-        <tr><td><link linkend="chapter-phonology-picture">Chapter 3</link></td><td>
+        <tr><td><link linkend="chapter-phonology-picture">第3章</link></td><td>
             <para><jbophrase>.i .ai .i .ai .o</jbophrase></para>
-            <para>[a sequence of arbitrary Lojban words]</para>
+            <para>（任意のロジバン語の羅列）</para>
         </td></tr>
-        <tr><td><link linkend="chapter-morphology-picture">Chapter 4</link></td><td>
+        <tr><td><link linkend="chapter-morphology-picture">第4章</link></td><td>
             <para><jbophrase>jbobliku</jbophrase></para>
-            <para>Lojbanic-blocks</para>
+            <para>ロジバンブロック</para>
         </td></tr>
-        <tr><td><link linkend="chapter-selbri-picture">Chapter 5</link></td><td>
-          <para> (none) </para>
+        <tr><td><link linkend="chapter-selbri-picture">第5章</link></td><td>
+          <para>（なし）</para>
         </td></tr>
-        <tr><td><link linkend="chapter-sumti-picture">Chapter 6</link></td><td>
+        <tr><td><link linkend="chapter-sumti-picture">第6章</link></td><td>
       <interlinear-gloss>
         <jbo>lei re nanmu cu bevri le re nanmu</jbo>
-        <gloss>The-mass-of two men - carry the two men</gloss>
-        <natlang>Two men (jointly) carry two men (both of them).</natlang>
+        <gloss>群である 2 男 - 運ぶ その 2 男</gloss>
+        <natlang>（共同で）2人の男性が（両方の）2人の男性を運ぶ。</natlang>
       </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-anaphoric-cmavo-picture">Chapter 7</link></td><td>
+        <tr><td><link linkend="chapter-anaphoric-cmavo-picture">第7章</link></td><td>
             <interlinear-gloss>
               <jbo>ma drani danfu</jbo>
-              <gloss>[What-sumti] is-the-correct type-of-answer?</gloss>
+              <gloss>（sumti 問） 正しい 答え？</gloss>
+              <natlang>正しい答えは何か</natlang>
             </interlinear-gloss>
             <interlinear-gloss>
               <jbo>.i di'e</jbo>
-              <gloss>- The-next-sentence.</gloss>
+              <gloss>- 次の文。</gloss>
             </interlinear-gloss>
             <interlinear-gloss>
               <jbo>.i di'u .i dei</jbo>
-              <gloss>- The-previous-sentence. - This-sentence.</gloss>
+              <gloss>- 前の文。 - この文。</gloss>
             </interlinear-gloss>
             <interlinear-gloss>
               <jbo>.i ri .i do'i</jbo>
-              <gloss>- The-previous-sentence. - An-unspecified-utterance.</gloss>
+              <gloss>- 前の文。 - 不特定の発話。</gloss>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-relative-clauses-picture">Chapter 8</link></td><td>
+        <tr><td><link linkend="chapter-relative-clauses-picture">第8章</link></td><td>
             <interlinear-gloss>
               <jbo>ko viska re prenu poi bruna la santas.</jbo>
-              <gloss>[You!] see two persons who-are brothers-of that-named Santa.</gloss>
+              <gloss>（あなた！） 見る 2 人 （制限的関係詞） ～の兄弟である ～と名付けられた サンタ</gloss>
+              <natlang>あなた！二人のサンタ兄弟を見なさい！</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-sumti-tcita-picture">Chapter 9</link></td><td>
-          <para> (none) </para>
+        <tr><td><link linkend="chapter-sumti-tcita-picture">第9章</link></td><td>
+          <para>（なし）</para>
         </td></tr>
-        <tr><td><link linkend="chapter-tenses-picture">Chapter 10</link></td><td>
+        <tr><td><link linkend="chapter-tenses-picture">第10章</link></td><td>
             <interlinear-gloss>
               <jbo>za'o klama</jbo>
-              <gloss>[superfective] come/go</gloss>
-              <natlang>Something goes (or comes) for too long.</natlang>
+              <gloss>（延続） 行く・来る</gloss>
+              <natlang>行き（来）過ぎた</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-abstractions-picture">Chapter 11</link></td><td>
+        <tr><td><link linkend="chapter-abstractions-picture">第11章</link></td><td>
             <interlinear-gloss>
               <jbo>le si'o kunti</jbo>
-              <gloss>The concept-of emptiness</gloss>
+              <gloss>その ～という概念 空っぽ</gloss>
+              <natlang>空っぽという概念</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-lujvo-picture">Chapter 12</link></td><td>
-          <para> (none) </para>
+        <tr><td><link linkend="chapter-lujvo-picture">第12章</link></td><td>
+          <para>（なし）</para>
         </td></tr>
-        <tr><td><link linkend="chapter-attitudinals-picture">Chapter 13</link></td><td>
+        <tr><td><link linkend="chapter-attitudinals-picture">第13章</link></td><td>
       <interlinear-gloss>
         <jbo>.oi ro'i ro'a ro'o</jbo>
-        <gloss>[Pain!] [emotional] [social] [physical]</gloss>
+        <gloss>（痛い！） （感情的に） （社会的に） （物理的に）</gloss>
       </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-connectives-picture">Chapter 14</link></td><td>
-          <para> (none) </para>
+        <tr><td><link linkend="chapter-connectives-picture">第14章</link></td><td>
+          <para>（なし）</para>
         </td></tr>
-        <tr><td><link linkend="chapter-negation-picture">Chapter 15</link></td><td>
+        <tr><td><link linkend="chapter-negation-picture">第15章</link></td><td>
             <interlinear-gloss>
               <jbo>mi na'e lumci le karce</jbo>
-              <gloss>I other-than wash the car</gloss>
-              <natlang>I didn't wash the car.</natlang>
+              <gloss>私 ～以外の 洗う その 車</gloss>
+              <natlang>私は車を洗わなかった。</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-quantifiers-picture">Chapter 16</link></td><td>
+        <tr><td><link linkend="chapter-quantifiers-picture">第16章</link></td><td>
             <interlinear-gloss>
               <jbo>drata mupli pe'u .djan.</jbo>
-              <gloss>another example [please] John</gloss>
-              <natlang>Another example, John, please!</natlang>
+              <gloss>別の 例 （要求） ジョン</gloss>
+              <natlang>別の例を、ジョン、頼む！</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-letterals-picture">Chapter 17</link></td><td>
+        <tr><td><link linkend="chapter-letterals-picture">第17章</link></td><td>
             <interlinear-gloss>
               <jbo>zai xanlerfu--bu ly. .obu .jy by. .abu ny.</jbo>
-              <gloss>[Shift] hand-letters l o j b a n</gloss>
-              <natlang>"Lojban" in a manual alphabet</natlang>
+              <gloss>（表記文字選択） 手文字 L O J B A N</gloss>
+              <natlang>指文字アルファベットの「lojban」</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-mekso-picture">Chapter 18</link></td><td>
+        <tr><td><link linkend="chapter-mekso-picture">第18章</link></td><td>
             <interlinear-gloss>
               <jbo>no no</jbo>
               <gloss>0 0</gloss>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-structure-picture">Chapter 19</link></td><td>
-          <para> (none) </para>
+        <tr><td><link linkend="chapter-structure-picture">第19章</link></td><td>
+          <para>（なし）</para>
         </td></tr>
-        <tr><td><link linkend="chapter-catalogue-picture">Chapter 20</link></td><td>
-          <para> (none) </para>
+        <tr><td><link linkend="chapter-catalogue-picture">第20章</link></td><td>
+          <para>（なし）</para>
         </td></tr>
-        <tr><td><link linkend="chapter-grammars-picture">Chapter 21</link></td><td>
-          <para> (none) </para>
+        <tr><td><link linkend="chapter-grammars-picture">第21章</link></td><td>
+          <para>（なし）</para>
         </td></tr>
     </informaltable>
   </section>
   <section xml:id="section-copyright">
-    <title><anchor xml:id="c1s8"/>Boring Legalities</title>
+    <title><anchor xml:id="c1s8"/>退屈な法律</title>
     <para>Copyright © 1997 by The Logical Language Group, Inc. All Rights Reserved.</para>
-    <para>Permission is granted to make and distribute verbatim copies of this book, either in electronic or in printed form, provided the copyright notice and this permission notice are preserved on all copies.</para>
-    <para>Permission is granted to copy and distribute modified versions of this book, provided that the modifications are clearly marked as such, and provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.</para>
-    <para>Permission is granted to copy and distribute translations of this book into another language, under the above conditions for modified versions, except that this permission notice may be stated in a translation that has been approved by the Logical Language Group, rather than in English.</para>
-    <para>The contents of 
-    <xref linkend="chapter-grammars"/> are in the public domain.</para>
-    <para>For information, contact: The Logical Language Group, 2904 Beau Lane, Fairfax VA 22031-1303 USA.  Telephone: 703-385-0273. Email address: 
-    <link xlink:href="mailto:llg-board@lojban.org">llg-board@lojban.org</link>.  Web Address:
-    <link xlink:href="http://www.lojban.org">http://www.lojban.org</link>.</para>
+    <para>すべてのコピーに著作権表示とこの許諾表示が保存されていれば、電子的または印刷された形式でこの本の逐語的コピーを作成し、配布する許可が与えられる。</para>
+    <para>この本の修正版をコピーして配布する許可は、修正版にその旨が明記され、派生した著作物全体がこの著作物と同一の許可通知の条件で配布されることを条件に与えられる。</para>
+    <para>本書の翻訳を他の言語にコピーして配布することは、上記の修正版の条件に基づいて許可されます。ただし、この許可通知は、英語ではなく、Logical Language Group によって承認された翻訳で記述することができる。</para>
+    <para>
+    <xref linkend="chapter-grammars"/>の内容はパブリック・ドメインである。</para>
+    <para>詳細については、連絡先： The Logical Language Group, 2904 Beau Lane, Fairfax VA 22031-1303 USA 、電話番号：703-385-0273、電子メールアドレス：
+    <link xlink:href="mailto:llg-board@lojban.org">llg-board@lojban.org</link>、ウェブアドレス：
+    <link xlink:href="http://www.lojban.org">http://www.lojban.org</link>まで。</para>
   </section>
 </chapter>
