@@ -1,5 +1,5 @@
 <chapter xml:id="chapter-tour">
-  <title><anchor xml:id="c2"/>A Quick Tour of Lojban Grammar, With Diagrams</title>
+  <title><anchor xml:id="c2"/>ダイアグラムを使用したロジバン文法のクイックツアー</title>
   <mediaobject xml:id="chapter-tour-picture">
     <textobject><phrase>The picture for chapter 2</phrase></textobject>
     <imageobject>
@@ -7,13 +7,12 @@
     </imageobject>
   </mediaobject>
   <section xml:id="section-bridi">
-    <title><anchor xml:id="c2s1"/>The concept of the bridi</title>
-    <para> <indexterm type="general"><primary>bridi</primary><secondary>concept of</secondary></indexterm> This chapter gives diagrammed examples of basic Lojban sentence structures. The most general pattern is covered first, followed by successive variations on the basic components of the Lojban sentence. There are many more capabilities not covered in this chapter, but covered in detail in later chapters, so this chapter is a 
-    <quote>quick tour</quote> of the material later covered more slowly throughout the book. It also introduces most of the Lojban words used to discuss Lojban grammar.</para>
+    <title><anchor xml:id="c2s1"/>ブリディ（bridi）の概念</title>
+    <para> <indexterm type="general"><primary>bridi</primary><secondary>concept of</secondary></indexterm> この章では、ロジバンの基本的な文構造の例を図で示す。最も一般的なパターンが最初に説明され、次にロジバン文の基本的なコンポーネントの連続したバリエーションが続く。この章では説明されていない機能は多数あるが、後の章で詳細に説明されているため、この章では、このマニュアル全体で後ほど詳しく説明する資料の<quote>クイックツアー</quote>を紹介する。また、ロジバンの文法を議論するために使用されるロジバンの単語のほとんどを紹介する。</para>
     <para> 
 
 
- Let us consider John and Sam and three statements about them:</para>
+ ジョンとサムとそれらについての3つのステートメントを考えてみよう：</para>
     
     <example xml:id="example-random-id-qIuj">
       <title> 
@@ -22,7 +21,7 @@
  
         <anchor xml:id="c2e1d1"/>
       </title>
-      <para>John is the father of Sam.</para>
+      <para>ジョンはサムの父である。（John is the father of Sam.）</para>
     </example>
     <example xml:id="example-random-id-qiuQ">
       <title> 
@@ -31,7 +30,7 @@
 
         <anchor xml:id="c2e1d2"/>
       </title>
-      <para>John hits Sam.</para>
+      <para>ジョンはサムを殴る。（John hits Sam.）</para>
       
     </example>
     <example xml:id="example-random-id-qIuS">
@@ -41,33 +40,20 @@
 
         <anchor xml:id="c2e1d3"/>
       </title>
-      <para>John is taller than Sam.</para>
+      <para>ジョンはサムより背が高い。（John is taller than Sam.）</para>
       
     </example>
-    <para role="indent"> <indexterm type="general"><primary>sumti</primary><secondary>relation with bridi</secondary></indexterm>  <indexterm type="general"><primary>brivla</primary><secondary>relation to bridi</secondary></indexterm>  <indexterm type="general"><primary>predication</primary><secondary>compared with bridi</secondary></indexterm>  <indexterm type="general"><primary>bridi</primary><secondary>compared with predication</secondary></indexterm>  <indexterm type="general"><primary>predication</primary><secondary>as a relationship</secondary></indexterm>  <indexterm type="general"><primary>relationship</primary><secondary>active/static/attributive compared</secondary></indexterm> These examples all describe relationships between John and Sam. However, in English, we use the noun 
-    
-    <quote>father</quote> to describe a static relationship in 
-    <xref linkend="example-random-id-qIuj"/>, the verb 
-    <quote>hits</quote> to describe an active relationship in 
-    
-    <xref linkend="example-random-id-qiuQ"/>, and the adjective 
-    <quote>taller</quote> to describe an attributive relationship in 
-    
-    <xref linkend="example-random-id-qIuS"/>. In Lojban we make no such grammatical distinctions; these three sentences, when expressed in Lojban, are structurally identical. The same part of speech is used to represent the relationship. In formal logic this whole structure is called a 
-    <quote>predication</quote>; in Lojban it is called a 
-    <valsi>bridi</valsi>, and the central part of speech is the 
-    <valsi>selbri</valsi>. Logicians refer to the things thus related as 
-    <quote>arguments</quote>, while Lojbanists call them 
-    <valsi>sumti</valsi>. These Lojban terms will be used for the rest of the book.</para>
+    <para role="indent"> <indexterm type="general"><primary>sumti</primary><secondary>relation with bridi</secondary></indexterm>  <indexterm type="general"><primary>brivla</primary><secondary>relation to bridi</secondary></indexterm>  <indexterm type="general"><primary>predication</primary><secondary>compared with bridi</secondary></indexterm>  <indexterm type="general"><primary>bridi</primary><secondary>compared with predication</secondary></indexterm>  <indexterm type="general"><primary>predication</primary><secondary>as a relationship</secondary></indexterm>  <indexterm type="general"><primary>relationship</primary><secondary>active/static/attributive compared</secondary></indexterm> これらの例はすべて、ジョンとサムの関係を説明している。ただし、日本語（原文では英語）では、名詞「父（原文では<quote>father</quote>）」を使用して<xref linkend="example-random-id-qIuj"/>の静的な関係を記述し、動詞「打つ（原文では<quote>hits</quote>）」を<xref linkend="example-random-id-qiuQ"/>でアクティブな関係を記述し、形容詞「より高い（原文では<quote>taller</quote>）」を使用して<xref linkend="example-random-id-qIuS"/>で属性関係を記述する。ロジバンでは、そのような文法的な区別は行わない。これら3つの文は、ロジバンで表現された場合、構造的に同一である。関係の表現には、同じ品詞が使用される。正式な論理では、この構造全体が「述語（<quote>predication</quote>）」と呼ばれる。ロジバンでは「ブリディ（<valsi>bridi</valsi>）」と呼ばれ、スピーチの中心は「セルブリ（<valsi>selbri</valsi>）」である。論理学者はこのように関連するものを「項（<quote>arguments</quote>）」と呼び、ロジバニストはそれらをスムティ（<valsi>sumti</valsi>）と呼ぶ。これらのロジバン用語は、本の残りの部分で使用される。</para>
+
     <mediaobject>
         <textobject><phrase>
-                    bridi (predicate)
+                        bridi (述語)
                ______________|__________________
                |                               |
               John     is the father of       Sam
              |____|    |______________|      |___|
                 |              |               |
-              sumti         selbri          sumti (argument)
+              sumti         selbri          sumti (項)
         </phrase></textobject>
       <imageobject>
         <imagedata fileref="media/chapter-2-diagram.png" />
@@ -76,185 +62,95 @@
     <para> 
 
 
- In a relationship, there are a definite number of things being related. In English, for example, 
-    <quote>give</quote> has three places: the donor, the recipient and the gift. For example:</para>
+ 関係には、関係しているものが明確にある。たとえば、日本語（原文では英語）では、「与える（原文では<quote>give</quote>）」には3つの場所がある：授与者（donor）、収受者（recipient）、贈与物（gift）。 例えば：</para>
     <example xml:id="example-random-id-DE08">
       <title>
         <anchor xml:id="c2e1d4"/>
         <indexterm type="example"><primary>give</primary></indexterm>
       </title>
-      <para>John gives Sam the book.</para>
+      <para>ジョンはサムに本を与える。（John gives Sam the book.）</para>
     </example>
-    <para role="noindent">and</para>
+    <para role="noindent">と</para>
     <example xml:id="example-random-id-IBBE">
       <title>
         <anchor xml:id="c2e1d5"/>
         <indexterm type="example"><primary>give</primary></indexterm>
       </title>
-      <para>Sam gives John the book.</para>
+      <para>サムはジョンに本を与える。（Sam gives John the book.）</para>
     </example>
-    <para role="noindent">mean two different things because the relative positions of 
-    <quote>John</quote> and 
-    <quote>Sam</quote> have been switched. Further,</para>
+    <para role="noindent">「ジョン（<quote>John</quote>）」と「サム（<quote>Sam</quote>）」の相対的な位置が入れ替わったため、2つの異なることを意味する。さらに、</para>
     <example xml:id="example-random-id-DxbA">
       <title>
         <anchor xml:id="c2e1d6"/>
         <indexterm type="example"><primary>give</primary></indexterm>
       </title>
-      <para>The book gives John Sam.</para>
+      <para>本はジョンにサムを与える。（The book gives John Sam.）</para>
     </example>
-    <para role="noindent">seems strange to us merely because the places are being filled by unorthodox arguments. The relationship expressed by 
-    <quote>give</quote> has not changed.</para>
-    <para> <indexterm type="general"><primary>place structure</primary><secondary>definition of</secondary></indexterm> In Lojban, each selbri has a specified number and type of arguments, known collectively as its 
-    <quote>place structure</quote>. The simplest kind of selbri consists of a single root word, called a 
-    <valsi>gismu</valsi>, and the definition in a dictionary gives the place structure explicitly. The primary task of constructing a Lojban sentence, after choosing the relationship itself, is deciding what you will use to fill in the sumti places.</para>
-    <para>This book uses the Lojban terms 
-    <valsi>bridi</valsi>, 
-    <valsi>sumti</valsi>, and 
-    <valsi>selbri</valsi>, because it is best to come to understand them independently of the English associations of the corresponding words, which are only roughly similar in meaning anyhow.</para>
+    <para role="noindent">単に場所が型破りな議論で埋められているというだけで、われわれには奇妙に思える。「与える（<quote>give</quote>）」という関係は変わらない。</para>
+    <para> <indexterm type="general"><primary>place structure</primary><secondary>definition of</secondary></indexterm>ロジバンでは、集合的に「位置構造（<quote>place structure</quote>）」として知られる、各セルブリ（selbri）は指定された数と型の引数を持つ。セルブリ（selbri）の最も単純な種類は、ギスム（<valsi>gismu</valsi>）と呼ばれる単一の根語（root word）で構成され、辞書での定義は位置構造を明示的に与える。関係自体を選択した後、ロジバン文を作成する主なタスクは、スムティ（sumti）の場所を埋めるために使用するものを決定することである。</para>
+    <para>この本ではロジバンの用語、<valsi>bridi</valsi>、<valsi>sumti</valsi>、<valsi>selbri</valsi>を使用している。これは、対応する単語の日本語（原文では英語）の関連付けとは無関係にそれらを理解するのが最善であるためである。</para>
     <para> 
 
-  <indexterm type="general"><primary>double underscore notation convention for Quick Tour chapter</primary></indexterm>  <indexterm type="general"><primary>underscore notation for Quick Tour chapter</primary></indexterm>  <indexterm type="general"><primary>notation conventions</primary><secondary>for Quick Tour chapter</secondary></indexterm> The Lojban examples in this chapter (but not in the rest of the book) use boldface (as well as the usual italics) for selbri, to help you to tell them apart.</para>
+  <indexterm type="general"><primary>double underscore notation convention for Quick Tour chapter</primary></indexterm>  <indexterm type="general"><primary>underscore notation for Quick Tour chapter</primary></indexterm>  <indexterm type="general"><primary>notation conventions</primary><secondary>for Quick Tour chapter</secondary></indexterm> この章のロジバンの例（本の残りの部分ではない）では、セルブリ（selbri）に太字（および通常のイタリック体）を使用して、区別しやすくしている。</para>
   </section>
   <section xml:id="section-pronunciation">
-    <title><anchor xml:id="c2s2"/>Pronunciation</title>
-    <para> <indexterm type="general"><primary>pronunciation</primary><secondary>quick-tour version</secondary></indexterm> Detailed pronunciation and spelling rules are given in 
-    <xref linkend="chapter-phonology"/>, but what follows will keep the reader from going too far astray while digesting this chapter.</para>
-    <para> <indexterm type="general"><primary>vowels</primary><secondary>pronunciation of</secondary><tertiary>quick-tour version</tertiary></indexterm> Lojban has six recognized vowels: 
-    <letteral>a</letteral>, 
-    <letteral>e</letteral>, 
-    <letteral>i</letteral>, 
-    <letteral>o</letteral>, 
-    <letteral>u</letteral> and 
-    <letteral>y</letteral>. The first five are roughly pronounced as 
-    <quote>a</quote> as in 
-    <quote>father</quote>, 
-    <letteral>e</letteral> as in 
-    <quote>let</quote>, 
-    <letteral>i</letteral> as in 
-    <quote>machine</quote>, 
-    <letteral>o</letteral> as in 
-    <quote>dome</quote> and 
-    <letteral>u</letteral> as in 
-    <quote>flute</quote>. 
-    <letteral>y</letteral> is pronounced as the sound called 
-    <quote>schwa</quote>, that is, as the unstressed 
-    <quote>a</quote> as in 
-    <quote>about</quote> or 
-    <quote>around</quote>.</para>
-    <para> <indexterm type="general"><primary>consonants</primary><secondary>pronunciation of</secondary><tertiary>quick-tour version</tertiary></indexterm> Twelve consonants in Lojban are pronounced more or less as their counterparts are in English: 
-    <letteral>b</letteral>, 
-    <letteral>d</letteral>, 
-    <letteral>f</letteral>, 
-    <letteral>k</letteral>, 
-    <letteral>l</letteral>, 
-    <letteral>m</letteral>, 
-    <letteral>n</letteral>, 
-    <letteral>p</letteral>, 
-    <letteral>r</letteral>, 
-    <letteral>t</letteral>, 
-    <letteral>v</letteral> and 
-    <letteral>z</letteral>. The letter 
-    <letteral>c</letteral>, on the other hand is pronounced as the 
-    <quote>sh</quote> in 
-    <quote>hush</quote>, while 
-    <letteral>j</letteral> is its voiced counterpart, the sound of the 
-    <quote>s</quote> in 
-    <quote>pleasure</quote>. 
-    <letteral>g</letteral> is always pronounced as it is in 
-    <quote>gift</quote>, never as in 
-    <quote>giant</quote>. 
-    <letteral>s</letteral> is as in 
-    <quote>sell</quote>, never as in 
-    <quote>rose</quote>. The sound of 
-    <letteral>x</letteral> is not found in English in normal words. It is found as 
-    <quote xml:lang="sco">ch</quote> in Scottish 
-    <quote xml:lang="sco">loch</quote>, as 
-    <quote xml:lang="es">j</quote> in Spanish 
-    <quote xml:lang="es">junta</quote>, and as 
-    <quote xml:lang="de">ch</quote> in German 
-    <quote xml:lang="de">Bach</quote>; it also appears in the English interjection 
-    <quote>yecchh!</quote>. It gets easier to say as you practice it. The letter 
-    <letteral>r</letteral> can be trilled, but doesn't have to be.</para>
-    <para> <indexterm type="general"><primary>diphthongs</primary><secondary>pronunciation of</secondary><tertiary>quick-tour version</tertiary></indexterm> The Lojban diphthongs 
-    <diphthong>ai</diphthong>, 
-    <diphthong>ei</diphthong>, 
-    <diphthong>oi</diphthong>, and 
-    <diphthong>au</diphthong> are pronounced much as in the English words 
-    <quote>sigh</quote>, 
-    <quote>say</quote>, 
-    <quote>boy</quote>, and 
-    <quote>how</quote>. Other Lojban diphthongs begin with an 
-    <letteral>i</letteral> pronounced like English 
-    <quote>y</quote> (for example, 
-    <diphthong>io</diphthong> is pronounced 
-    <quote>yo</quote>) or else with a 
-    <letteral>u</letteral> pronounced like English 
-    <quote>w</quote> (for example, 
-    <diphthong>ua</diphthong> is pronounced 
-    <quote>wa</quote>).</para>
-    <para> <indexterm type="general"><primary>period</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>comma</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>apostrophe</primary><secondary>quick-tour version</secondary></indexterm> Lojban also has three 
-    <quote>semi-letters</quote>: the period, the comma and the apostrophe. The period represents a glottal stop or a pause; it is a required stoppage of the flow of air in the speech stream. The apostrophe sounds just like the English letter 
-    
-    <quote>h</quote>. Unlike a regular consonant, it is not found at the beginning or end of a word, nor is it found adjacent to a consonant; it is only found between two vowels. The comma has no sound associated with it, and is used to separate syllables that might ordinarily run together. It is not used in this chapter.</para>
-    <para> <indexterm type="general"><primary>stress</primary><secondary>quick-tour version</secondary></indexterm> Stress falls on the next to the last syllable of all words, unless that vowel is 
-    <letteral>y</letteral>, which is never stressed; in such words the third-to-last syllable is stressed. If a word only has one syllable, then that syllable is not stressed.</para>
-    <para>All Lojban words are pronounced as they are spelled: there are no silent letters.</para>
+    <title><anchor xml:id="c2s2"/>発音</title>
+    <para> <indexterm type="general"><primary>pronunciation</primary><secondary>quick-tour version</secondary></indexterm>詳細な発音と綴りの規則については<xref linkend="chapter-phonology"/>で述べるが、この章の内容を理解している間に読者が間違った方向に進んでしまわないようにするために、以下に述べる。</para>
+    <para> <indexterm type="general"><primary>vowels</primary><secondary>pronunciation of</secondary><tertiary>quick-tour version</tertiary></indexterm>Lojbanには、<letteral>a</letteral>、<letteral>e</letteral>、<letteral>i</letteral>、<letteral>o</letteral>、<letteral>u</letteral>、<letteral>y</letteral>の6つの母音がある。最初の五文字は、<quote>father</quote>（父）のに<letteral>a</letteral>、<quote>let</quote>（～させる）の<letteral>e</letteral>、<quote>machine</quote>（機械）の<letteral>i</letteral>、<quote>dome</quote>（ドーム）の<letteral>o</letteral>、<quote>flute</quote>（フルート）の<letteral>u</letteral>と大まかに発音される。<letteral>y</letteral>は「説明」と呼ばれる音、つまり<quote>about</quote>（～について）や<quote>around</quote>（～の周囲に）の<quote>a</quote>のようにストレスのない「曖昧母音（<quote>schwa</quote>）」として発音される。</para>
+    <para> <indexterm type="general"><primary>consonants</primary><secondary>pronunciation of</secondary><tertiary>quick-tour version</tertiary></indexterm>一方、文字<letteral>c</letteral>は<quote>hush</quote>（黙る）の<quote>sh</quote>として発音され、<letteral>j</letteral>は<quote>pleasure</quote>（快楽）の<quote>s</quote>の音である有声音である。<letteral>g</letteral> は常に<quote>gift</quote>（贈与物）の<letteral>g</letteral>としてそのまま発音され、<quote>giant</quote>（巨人）の<letteral>g</letteral>として発音されることは決してない。<letteral>s</letteral>は<quote>sell</quote>の<letteral>s</letteral>にあり、<quote>giant</quote>の<letteral>g</letteral>として発音されることは決してない。英語で<letteral>x</letteral>の音は普通の言葉では見かけない。スコットランド語の<quote xml:lang="sco">loch</quote>の<quote xml:lang="sco">ch</quote>や、スペイン語の<quote xml:lang="es">junta</quote>の<quote xml:lang="es">j</quote>、ドイツ語の<quote xml:lang="de">Bach</quote>の<quote xml:lang="de">ch</quote>で見かけられる。英語の感嘆詞<quote>yecchh!</quote>（やった）にも現れる。練習すればするほど言いやすくなる。文字<letteral>r</letteral>は、巻き舌にすることはできるが、必ずしもそうである必要はない。</para>
+    <para> <indexterm type="general"><primary>diphthongs</primary><secondary>pronunciation of</secondary><tertiary>quick-tour version</tertiary></indexterm>ロジバンの二重母音の<diphthong>ai</diphthong>、<diphthong>ei</diphthong>、<diphthong>oi</diphthong>、および<diphthong>au</diphthong>は、英語の単語<quote>sigh</quote>（ため息）、<quote>say</quote>（言う）、<quote>boy</quote>（少年）、および<quote>how</quote>（方法）と同様に発音される。他のロジバンの二重母音は、英語の<quote>y</quote>のように発音される<letteral>i</letteral>（たとえば、<diphthong>io</diphthong>は「<quote>yo</quote>」と発音される）または英語の<quote>w</quote>のように発音される<letteral>u</letteral>（たとえば、<diphthong>ua</diphthong>は「<quote>wa</quote>」と発音される）で始まる。</para>
+    <para> <indexterm type="general"><primary>period</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>comma</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>apostrophe</primary><secondary>quick-tour version</secondary></indexterm>ロジバンにはピリオド（period）、コンマ（comma）、アポストロフィ（apostrophe）の三つの「半文字（<quote>semi-letters</quote>）」もある。ピリオドは声門閉鎖音（glottal stop）または休止（pause）を表す。音声の流れの中で空気の流れを止める必要がある。アポストロフィは英語の文字<quote>h</quote>に似ている。通常の子音とは異なり、単語の先頭や末尾にはなく、子音の近くにもない。2つの母音の間にだけ見られる。コンマには音が付いておらず、通常一緒に発音される音節を区切るために使用される。この章では使用しない。</para>
+    <para> <indexterm type="general"><primary>stress</primary><secondary>quick-tour version</secondary></indexterm>すべての単語の最後の音節の次の音節にストレスがかかる。ただし、その母音が<letteral>y</letteral>である場合は、決してストレスがかからない。そのような言葉では最後から3番目の音節が強調される。単語に音節が1つしかない場合、その音節は強調されない。</para>
+    <para>すべてのロジバンの単語は、綴られているとおりに発音される。黙字（silent letters）はない。</para>
   </section>
   <section xml:id="section-sumti-cmavo">
-    <title><anchor xml:id="c2s3"/>Words that can act as sumti</title>
-    <para> <indexterm type="general"><primary>pro-sumti</primary><secondary>quick-tour version</secondary></indexterm> Here is a short table of single words used as sumti. This table provides examples only, not the entire set of such words, which may be found in 
-    <xref linkend="section-koha-summary"/>.</para>
+    <title><anchor xml:id="c2s3"/>スムティ（sumti）として振る舞える言葉</title>
+    <para> <indexterm type="general"><primary>pro-sumti</primary><secondary>quick-tour version</secondary></indexterm>以下は、スムティとして使用される単一の単語の短い表である。この表は例のみを提供するものであり、<xref linkend="section-koha-summary"/>に記載されているような単語のすべてを示しているわけではない。</para>
     <cmavo-list>
       <cmavo-entry>
         <cmavo>mi</cmavo>
-        <description>I/me, we/us</description>
+        <description>私・私たち</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>do</cmavo>
-        <description>you</description>
+        <description>あなた・あなたたち</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>ti</cmavo>
-        <description>this, these</description>
+        <description>これ・これら</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>ta</cmavo>
-        <description>that, those</description>
+        <description>それ・それら（あれ・あれら）</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>tu</cmavo>
-        <description>that far away, those far away</description>
+        <description>あれ・あれら</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>zo'e</cmavo>
-        <description>unspecified value (used when a sumti is unimportant or obvious)</description>
+        <description>不特定項（スムティが重要でなかったり、不特定の場合に使う）</description>
       </cmavo-entry>
     </cmavo-list>
-    <para role="indent">Lojban sumti are not specific as to number (singular or plural), nor gender (masculine/feminine/neutral). Such distinctions can be optionally added by methods that are beyond the scope of this chapter.</para>
+    <para role="indent">ロジバンのスムティ（sumti）は、数（単数か複数か）や性別（男性か女性か中立か）について特定されていない。このような区別は、この章の範囲外の方法によってオプションで追加できる。</para>
     
-    <para> <indexterm type="general"><primary>pointing cmavo</primary><secondary>quick-tour version</secondary></indexterm> The cmavo 
-    <valsi>ti</valsi>, 
-    <valsi>ta</valsi>, and 
-    <valsi>tu</valsi> refer to whatever the speaker is pointing at, and should not be used to refer to things that cannot in principle be pointed at.</para>
-    <para> <indexterm type="general"><primary>names</primary><secondary>quick-tour version</secondary></indexterm> Names may also be used as sumti, provided they are preceded with the word 
-    <valsi>la</valsi>:</para>
+    <para> <indexterm type="general"><primary>pointing cmavo</primary><secondary>quick-tour version</secondary></indexterm>シマヴォ（cmavo）である、<valsi>ti</valsi>、<valsi>ta</valsi>、および<valsi>tu</valsi>は、話し手が指しているものを指し、原則として指し示すことのできないものを指すために使用すべきではない。</para>
+    <para> <indexterm type="general"><primary>names</primary><secondary>quick-tour version</secondary></indexterm>名前は、<valsi>la</valsi>という語が前に付いていれば、スムティ（sumti）としても使用できる。</para>
     <informaltable>
           <tr>
             <td><jbophrase>la meris.</jbophrase></td>
-            <td>the one/ones named Mary</td>
+            <td>メリーという名前のもの</td>
           </tr>
           <tr>
             <td><jbophrase>la djan.</jbophrase></td>
-            <td>the one/ones named John</td>
+            <td>ジャンという名前のもの</td>
           </tr>
     </informaltable>
-    <para>Other Lojban spelling versions are possible for names from other languages, and there are restrictions on which letters may appear in Lojban names: see 
-    <xref linkend="section-names"/> for more information.</para>
+    <para>ロジバンでは、他の言語の名前に対しては、他の綴り方が可能であり、ロジバン名に表示される文字には制限がある。詳細については、<xref linkend="section-names"/>を参照してほしい。</para>
   </section>
   <section xml:id="section-some-selbri">
     <title><anchor xml:id="c2s4"/>Some words used to indicate selbri relations</title>
-    <para> <indexterm type="general"><primary>selbri list for quick tour</primary></indexterm> Here is a short table of some words used as Lojban selbri in this chapter:</para>
+    <para> <indexterm type="general"><primary>selbri list for quick tour</primary></indexterm>この章でロジバンのセルブリ（selbri）として使用されるいくつかの単語の短い表を次に示す：</para>
     <para role="allowbreaks"/>
     <informaltable class="vertsep">
       <!-- This table is redundant with the glossary, but there's
@@ -262,107 +158,92 @@
            -->
           <tr>
             <td><valsi>vecnu</valsi></td>
-            <td>x1 (seller) sells x2 (goods) to x3 (buyer) for x4 (price)</td>
+            <td>x1（売る者）はx2（品）をx3（買う者）にx4（価格）で売る</td>
           </tr>
           <tr>
             <td><valsi>tavla</valsi></td>
-            <td>x1 (talker) talks to x2 (audience) about x3 (topic) in language x4</td>
+            <td>x1（話者）はx2（聞く者）にx3（題目）についてx4（言語）で話す／語る</td>
           </tr>
           <tr>
             <td><valsi>sutra</valsi></td>
-            <td>x1 (agent) is fast at doing x2 (action)</td>
+            <td>x1（行為者はx2（動作）に関して速い／すばやい</td>
           </tr>
           <tr>
             <td><valsi>blari'o</valsi></td>
-            <td>x1 (object/light source) is blue-green</td>
+            <td>x1（対象・色）は青緑色</td>
           </tr>
           <tr>
             <td><valsi>melbi</valsi></td>
-            <td>x1 (object/idea) is beautiful to x2 (observer) by standard x3</td>
+            <td>x1（対象・概念はx2（審美者）にとってx3（審美基準）において美しい／綺麗だ</td>
           </tr>
           <tr>
             <td><valsi>cutci</valsi></td>
-            <td>x1 is a shoe/boot for x2 (foot) made of x3 (material)</td>
+            <td>x1はx2（足）のためのx3（素材）の靴／ブーツ</td>
           </tr>
           <tr>
             <td><valsi>bajra</valsi></td>
-            <td>x1 runs on x2 (surface) using x3 (limbs) in manner x4 (gait)</td>
+            <td>x1はx2（表面）をx3（肢）を用いてx4（調子）で走る</td>
           </tr>
           <tr>
             <td><valsi>klama</valsi></td>
-            <td>x1 goes/comes to x2 (destination) from x3 (origin point) via x4 (route) using x5 (means of transportation)</td>
+            <td>x1はx2（終点）にx3（起点）からx4（経路）をx5（方法）で行く／来る</td>
           </tr>
           <tr>
             <td><valsi>pluka</valsi></td>
-            <td>x1 pleases/is pleasing to x2 (experiencer) under conditions x3</td>
+            <td>x1はx2（経験者）にとってx3（条件）のもと快い／心地良い</td>
           </tr>
 
           <tr>
             <td><valsi>gerku</valsi></td>
-            <td>x1 is a dog of breed x2</td>
+            <td>x1はx2（種類）のイヌ</td>
           </tr>
           <tr>
             <td><valsi>kurji</valsi></td>
-            <td>x1 takes care of x2</td>
+            <td>x1はx2を世話する／面倒みる</td>
           </tr>
           <tr>
             <td><valsi>kanro</valsi></td>
-            <td>x1 is healthy by standard x2</td>
+            <td>x1はx2（基準）において健康／すこやか</td>
           </tr>
 
           <tr>
             <td><valsi>stali</valsi></td>
-            <td>x1 stays/remains with x2</td>
+            <td>x1はx2に留まる</td>
           </tr>
           <tr>
             <td><valsi>zarci</valsi></td>
-            <td>x1 is a market/store/shop selling x2 (products) operated by x3 (storekeeper)</td>
+            <td>x1はx2（製品）を商うx3（営者）の店／市場</td>
           </tr>
     </informaltable>
-    <para> <indexterm type="general"><primary>x1</primary><secondary>notation convention</secondary><tertiary>quick-tour version</tertiary></indexterm> Each selbri (relation) has a specific rule that defines the role of each sumti in the bridi, based on its position. In the table above, that order was expressed by labeling the sumti positions as x1, x2, x3, x4, and x5.</para>
-    <para> <indexterm type="general"><primary>words not in the dictionary</primary></indexterm> Like the table in 
-    <xref linkend="section-sumti-cmavo"/>, this table is far from complete: in fact, no complete table can exist, because Lojban allows new words to be created (in specified ways) whenever a speaker or writer finds the existing supply of words inadequate. This notion is a basic difference between Lojban (and some other languages such as German and Chinese) and English; in English, most people are very leery of using words that 
-    <quote>aren't in the dictionary</quote>. Lojbanists are encouraged to invent new words; doing so is a major way of participating in the development of the language. 
-    <xref linkend="chapter-morphology"/> explains how to make new words, and 
-    <xref linkend="chapter-lujvo"/> explains how to give them appropriate meanings.</para>
+    <para> <indexterm type="general"><primary>x1</primary><secondary>notation convention</secondary><tertiary>quick-tour version</tertiary></indexterm>各セルブリ（selbri）（関係）には、その位置に基づいて、ブリディの各スムティ（sumti）の役割を定義する特定のルールがある。上記の表では、その順序は、スムティの位置にx1、x2、x3、x4、およびx5と表示することによって表されている。</para>
+    <para> <indexterm type="general"><primary>words not in the dictionary</primary></indexterm><xref linkend="section-sumti-cmavo"/>の表のように、この表は完全にはほど遠い。実際、完全な表は存在できない。なぜなら、話者または作家が既存の単語の供給が不十分であるとわかると、ロジバンは（指定された方法で）新しい単語を作成できるからである。この概念は、ロジバン（およびドイツ語や中国語などの他の言語）と英語の基本的な違いである。英語では、ほとんどの人は「辞書に載っていない（<quote>aren't in the dictionary</quote>）」言葉を使うことに非常に恐れている。ロジバニストは新しい言葉を考案することが奨励されている。そうすることは、言語の開発に参加する主要な方法である。<xref linkend="chapter-morphology"/>では新しい単語の作成方法について説明し、<xref linkend="chapter-lujvo"/>では適切な意味を与える方法について説明する。</para>
   </section>
   <section xml:id="section-some-simple-bridi">
-    <title><anchor xml:id="c2s5"/>Some simple Lojban bridi</title>
-    <para> <indexterm type="general"><primary>bridi</primary><secondary>quick-tour version</secondary></indexterm> Let's look at a simple Lojban bridi. The place structure of the gismu 
-    <valsi>tavla</valsi> is</para>
+    <title><anchor xml:id="c2s5"/>簡単なロジバンのブリディ（bridi）</title>
+    <para> <indexterm type="general"><primary>bridi</primary><secondary>quick-tour version</secondary></indexterm>簡単なロジバンのブリディ（bridi）を見てみよう。ギスム（gismu）である<valsi>tavla</valsi>の位置構造は</para>
     <example xml:id="example-random-id-5Lis">
       <title>
         <anchor xml:id="c2e5d1"/>
       </title>
-      <para>x1 talks to x2 about x3 in language x4</para>
+      <para>x1は x2に x3について x4（言語）で 話す／語る</para>
     </example>
-    <para role="noindent">where the 
-    <quote>x</quote> es with following numbers represent the various arguments that could be inserted at the given positions in the English sentence. For example:</para>
+    <para role="noindent">ここで、次の数字が付いた<quote>x</quote>は、日本語（原文では英語）の文の特定の位置に挿入できるさまざまな引数を表す。例えば：</para>
     <example xml:id="example-random-id-3bc3">
       <title>
         <indexterm type="example"><primary>engineering</primary></indexterm>
         <anchor xml:id="c2e5d2"/>
       </title>
-      <para>John talks to Sam about engineering in Lojban.</para>
+      <para>ジョンは サムに 工学について ロジバンで 話す。</para>
       
     </example>
-    <para role="noindent"> 
-
-
- has 
-    <quote>John</quote> in the x1 place, 
-    <quote>Sam</quote> in the x2 place, 
-    <quote>engineering</quote> in the x3 place, and 
-    
-    <quote>Lojban</quote> in the x4 place, and could be paraphrased:</para>
+    <para role="noindent">x1の場所にジョン（<quote>John</quote>）、x2の場所にサム（<quote>Sam</quote>） 、x3の場所に工学（<quote>engineering</quote>） 、そして、x4の場所にロジバン（<quote>Lojban</quote>）があり、次のように言い換えることができる：</para>
     <example xml:id="example-random-id-pVMH">
       <title>
         <anchor xml:id="c2e5d3"/>
       </title>
-      <para>Talking is going on, with speaker John and listener Sam and subject matter engineering and language Lojban.</para>
+      <para>話し手のジョンと聞き手のサム、そして主題が工学で、言語がロジバンの話が続いている。</para>
     </example>
-    <para role="indent">The Lojban bridi corresponding to 
-    <xref linkend="example-random-id-5Lis"/> will have the form</para>
+    <para role="indent"><xref linkend="example-random-id-5Lis"/>に対応するロジバンのブリディ（bridi）の形式は次の通りである。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k01t">
       <title>
         <anchor xml:id="c2e5d4"/>
@@ -378,8 +259,7 @@
         </jbo>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>cu</primary><secondary>use of</secondary><tertiary>quick-tour version</tertiary></indexterm>  <indexterm type="general"><primary>cu</primary><secondary>omission of</secondary><tertiary>quick-tour version</tertiary></indexterm> The word 
-    <valsi>cu</valsi> serves as a separator between any preceding sumti and the selbri. It can often be omitted, as in the following examples.</para>
+    <para role="indent"> <indexterm type="general"><primary>cu</primary><secondary>use of</secondary><tertiary>quick-tour version</tertiary></indexterm>  <indexterm type="general"><primary>cu</primary><secondary>omission of</secondary><tertiary>quick-tour version</tertiary></indexterm><valsi>cu</valsi>という単語は、先行するスムティ（sumti）とセルブリ（selbri）の間の区切り文字として機能する。多くの場合、次の例のように省略できる。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k02C">
       <title>
         <anchor xml:id="c2e5d5"/>
@@ -392,7 +272,7 @@
           <sumti>zo'e</sumti> 
           <sumti>zo'e</sumti>
         </jbo>
-        <natlang>I talk to you about something in some language.</natlang>
+        <natlang>私はあなたにあることについてある言語で話す。</natlang>
 
         
       </interlinear-gloss-itemized>
@@ -409,7 +289,7 @@
           <sumti>ta</sumti> 
           <sumti>zo'e</sumti>
         </jbo>
-        <natlang>You talk to me about that thing in a language.</natlang>
+        <natlang>あなたは私にそのことについてある言語で話す。</natlang>
 
         
       </interlinear-gloss-itemized>
@@ -426,16 +306,11 @@
           <sumti>tu</sumti> 
           <sumti>ti</sumti>
         </jbo>
-        <natlang>I talk to someone about that thing yonder in this language.</natlang>
+        <natlang>私はある人にあのことについてこの言語で話す。</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">(<xref linkend="example-random-id-k03n"/> is a bit unusual, as there is no easy way to point to a language; one might point to a copy of this book, and hope the meaning gets across!)</para>
-    <para> <indexterm type="general"><primary>ellipsis</primary><secondary>quick-tour version</secondary></indexterm> When there are one or more occurrences of the cmavo 
-    <valsi>zo'e</valsi> at the end of a bridi, they may be omitted, a process called 
-    <quote>ellipsis</quote>. 
-
-    <xref linkend="example-random-id-k02C"/> and 
-    <xref linkend="example-random-id-k02u"/> may be expressed thus:</para>
+    <para role="noindent">（<xref linkend="example-random-id-k03n"/>は、言語を指す簡単な方法がないため、少し変わっている。この本のコピーを指して、意味が伝わることを願うかもしれない！）</para>
+    <para> <indexterm type="general"><primary>ellipsis</primary><secondary>quick-tour version</secondary></indexterm>ブリディ（bridi）の終わりにシマヴォ（cmavo）の<valsi>zo'e</valsi>が1つ以上ある場合、それらは省略される可能性があり、「省略（<quote>ellipsis</quote>）」と呼ばれるプロセスである。<xref linkend="example-random-id-k02C"/>と<xref linkend="example-random-id-k02u"/>は以下のように表現できる：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k04J">
       <title>
         <anchor xml:id="c2e5d8"/>
@@ -446,7 +321,7 @@
           <selbri>tavla</selbri> 
           <sumti>do</sumti>
         </jbo>
-        <natlang>I talk to you (about something in some language).</natlang>
+        <natlang>私は（あることについてある言語で）あなたに話す。</natlang>
 
         
       </interlinear-gloss-itemized>
@@ -462,17 +337,15 @@
           <sumti>mi</sumti> 
           <sumti>ta</sumti>
         </jbo>
-        <natlang>You talk to me about that thing (in some language).</natlang>
+        <natlang>あなたは私にあのことについて（ある言語で）話す。</natlang>
       </interlinear-gloss-itemized>
     </example>
     <para role="indent">Note that 
-    <xref linkend="example-random-id-k03n"/> is not subject to ellipsis by this direct method, as the 
-
-    <valsi>zo'e</valsi> in it is not at the end of the bridi.</para>
+    <xref linkend="example-random-id-k03n"/>は、この直接法による省略の影響を受けないことに注意してほしい。これは、<valsi>zo'e</valsi>がブリディ（bridi）の最後にないためである。</para>
   </section>
   <section xml:id="section-variant-bridi-structure">
     <title><anchor xml:id="c2s6"/>Variant bridi structure</title>
-    <para> <indexterm type="general"><primary>sumti placement</primary><secondary>variant</secondary><tertiary>quick-tour version</tertiary></indexterm> Consider the sentence</para>
+    <para> <indexterm type="general"><primary>sumti placement</primary><secondary>variant</secondary><tertiary>quick-tour version</tertiary></indexterm>例文を見てみよう。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k068">
       <title>
         <anchor xml:id="c2e6d1"/>
@@ -487,27 +360,27 @@
           <sumti>zo'e</sumti>
         </jbo>
         <gloss>
-          <sumti>seller-x1</sumti>
+          <sumti>売り手-x1</sumti>
           <elidable></elidable>
-          <selbri>sells</selbri>
-          <sumti>goods-sold-x2</sumti>
-          <sumti>buyer-x3</sumti>
-          <sumti>price-x4</sumti>
+          <selbri>売る</selbri>
+          <sumti>売る物-x2</sumti>
+          <sumti>買い手-x3</sumti>
+          <sumti>価格-x4</sumti>
         </gloss>
         <gloss>
-          <sumti>I</sumti>
+          <sumti>私</sumti>
           <elidable></elidable>
-          <selbri>sell</selbri>
-          <sumti>this</sumti>
-          <sumti>to that</sumti>
-          <sumti>for some price.</sumti>
+          <selbri>売る</selbri>
+          <sumti>これ</sumti>
+          <sumti>それ</sumti>
+          <sumti>ある価格</sumti>
         </gloss>
-        <natlang>I sell this-thing/these-things to that-buyer/those-buyers.</natlang>
-        <comment>(the price is obvious or unimportant)</comment>
+        <natlang>I sell this-thing/these-things to that-buyer/those-buyers.（私はこれをその買い手に売る。）</natlang>
+        <comment>（価格は明らか、または重要でない）</comment>
       </interlinear-gloss-itemized>
     </example>
     <para role="indent">
-    <xref linkend="example-random-id-k068"/> has one sumti (the x1) before the selbri. It is also possible to put more than one sumti before the selbri, without changing the order of sumti:</para>
+    <xref linkend="example-random-id-k068"/>では、セルブリ（selbri）の前に1つのスムティ（sumti）（x1）がある。 スムティ（sumti）の順序を変えずに、セルブリ（selbri）の前に複数のスムティ（sumti）を置くこともできる：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0aR">
       <title>
         <anchor xml:id="c2e6d2"/>
@@ -521,21 +394,21 @@
           <sumti>ta</sumti>
         </jbo>
         <gloss>
-          <sumti>seller-x1</sumti>
-          <sumti>goods-sold-x2</sumti>
+          <sumti>売り手-x1</sumti>
+          <sumti>売る物-x2</sumti>
           <elidable></elidable>
-          <selbri>sells</selbri>
-          <sumti>buyer-x3</sumti>
+          <selbri>売る</selbri>
+          <sumti>買い手-x3</sumti>
         </gloss>
         <gloss>
-          <sumti>I</sumti>
-          <sumti>this</sumti>
+          <sumti>私</sumti>
+          <sumti>これ</sumti>
           <elidable></elidable>
-          <selbri>sell</selbri>
-          <sumti>to that.</sumti>
+          <selbri>売る</selbri>
+          <sumti>あれ</sumti>
         </gloss>
-        <comment>(translates as stilted or poetic English)</comment>
-        <natlang>I this thing do sell to that buyer.</natlang>
+        <comment>（堅苦しいか詩的な英語として翻訳した）</comment>
+        <natlang>I this thing do sell to that buyer.（私は、これというものを、売る、あの買い手に。）</natlang>
       </interlinear-gloss-itemized>
     </example>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0Bm">
@@ -551,28 +424,25 @@
           <selbri>vecnu</selbri>
         </jbo>
         <gloss>
-          <sumti>seller-x1</sumti>
-          <sumti>goods-sold-x2</sumti>
-          <sumti>buyer-x3</sumti>
+          <sumti>売り手-x1</sumti>
+          <sumti>売る物-x2</sumti>
+          <sumti>買い手-x3</sumti>
           <elidable></elidable>
-          <selbri>sells</selbri>
+          <selbri>売る</selbri>
         </gloss>
         <gloss>
-          <sumti>I</sumti>
-          <sumti>this</sumti>
-          <sumti>to that</sumti>
+          <sumti>私</sumti>
+          <sumti>これ</sumti>
+          <sumti>あれ</sumti>
           <elidable></elidable>
-          <selbri>sell</selbri>
+          <selbri>売る</selbri>
         </gloss>
-        <comment>(translates as stilted or poetic English)</comment>
-        <natlang>I this thing to that buyer do sell.</natlang>
+        <comment>（堅苦しいか詩的な英語として翻訳した）</comment>
+        <natlang>I this thing to that buyer do sell.（私は、これというものを、あの買い手に、売る。）</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent">
-      <xref linkend="example-random-id-k068"/> through 
-    <xref linkend="example-random-id-k0Bm"/> mean the same thing. Usually, placing more than one sumti before the selbri is done for style or for emphasis on the sumti that are out-of-place from their normal position. (Native speakers of languages other than English may prefer such orders.)</para>
-    <para> <indexterm type="general"><primary>observatives</primary><secondary>quick-tour version</secondary></indexterm> If there are no sumti before the selbri, then it is understood that the x1 sumti value is equivalent to 
-    <valsi>zo'e</valsi>; i.e. unimportant or obvious, and therefore not given. Any sumti after the selbri start counting from x2.</para>
+    <para role="indent"><xref linkend="example-random-id-k068"/>から<xref linkend="example-random-id-k0Bm"/>は同じことを意味する。通常、セルブリ（selbri）の前に複数のスムティ（sumti）を配置することは、スタイルのため、または通常の位置から外れたスムティを強調するために行わる。（英語以外の言語のネイティブスピーカーは、このような順序を好む場合がある。）</para>
+    <para> <indexterm type="general"><primary>observatives</primary><secondary>quick-tour version</secondary></indexterm>セルブリ（selbri）の前にスムティ（sumti）がない場合、x1のスムティは<valsi>zo'e</valsi>と同等であると理解される。すなわち、重要ではない、または明白であるため、与えられていない。セルブリ（selbri）の後のスムティ（sumti）はx2から数え始める。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0br">
       <title>
         <anchor xml:id="c2e6d4"/>
@@ -585,22 +455,22 @@
           <comment></comment>
         </jbo>
         <gloss>
-          <sumti>object/idea-x1</sumti>
+          <sumti>対象・思考-x1</sumti>
           <elidable></elidable>
-          <selbri>is-beautiful</selbri> 
-          <comment>(to someone by some standard)</comment>
+          <selbri>美しい</selbri> 
+          <comment>（誰かにとって、ある基準で）</comment>
         </gloss>
         <gloss>
-          <sumti>That/Those</sumti>
+          <sumti>それ</sumti>
           <elidable></elidable>
-          <selbri>is/are beautiful.</selbri>
+          <selbri>美しい</selbri>
           <comment></comment>
         </gloss>
-        <natlang>That is beautiful.</natlang>
-        <natlang>Those are beautiful.</natlang>
+        <natlang>それは美しい。</natlang>
+        <natlang>それらは美しい。</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">when the x1 is omitted, becomes:</para>
+    <para role="noindent">x1が省略された場合は以下のようになる。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0Ch">
       <title>
         <anchor xml:id="c2e6d5"/>
@@ -612,33 +482,21 @@
           <comment/>
         </jbo>
         <gloss>
-          <sumti>unspecified-x1</sumti>
-          <selbri>is-beautiful</selbri> 
-          <comment>to someone by some standard</comment>
+          <sumti>不特定-x1</sumti>
+          <selbri>美しい</selbri> 
+          <comment>（誰かにとって、ある基準で）</comment>
         </gloss>
-        <natlang>Beautiful!</natlang>
-        <natlang>It's beautiful!</natlang>
+        <natlang>美しい！</natlang>
+        <natlang>それは美しい！</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent">Omitting the x1 adds emphasis to the selbri relation, which has become first in the sentence. This kind of sentence is termed an observative, because it is often used when someone first observes or takes note of the relationship, and wishes to quickly communicate it to someone else. Commonly understood English observatives include 
+    <para role="indent">x1を省略すると、文の最初になったセルブリ（selbri）の関係が強調される。このような種類の文は、人が最初にその関係を観察したりメモしたりして、それをすぐに他の人に伝えたいときによく使用されるため、観察文（observative）と呼ばれる。 一般的に理解されている英語の観察文には、煙を見たり臭いを嗅いだりしたときに「煙！（<quote>Smoke!</quote>）」とか、通りを渡っている人が危険にさらされているかもしれないときに「車！（<quote>Car!</quote>）」などがある。すべてのロジバンのセルブリ（selbri）は、セルブリ（selbri）の前にスムティ（sumti）が現れない場合、観察文として使用できる。</para>
     
-    
-    <quote>Smoke!</quote> upon seeing smoke or smelling the odor, or 
-    <quote>Car!</quote> to a person crossing the street who might be in danger. Any Lojban selbri can be used as an observative if no sumti appear before the selbri.</para>
-    
-    <para>The word 
-    <valsi>cu</valsi> does not occur in an observative; 
-    
-    <valsi>cu</valsi> is a separator, and there must be a sumti before the selbri that needs to be kept separate for 
-    <valsi>cu</valsi> to be used. With no sumti preceding the selbri, 
-    <valsi>cu</valsi> is not permitted. Short words like 
-    <valsi>cu</valsi> which serve grammatical functions are called 
-    <valsi>cmavo</valsi> in Lojban.</para>
+    <para><valsi>cu</valsi>という単語は、観察文ではない。<valsi>cu</valsi>は分離させる文字（separator）であり、<valsi>cu</valsi>を使用するためには、セルブリ（selbri）の前にスムティ（sumti）がなければならない。スムティ（sumti）がセルブリ（selbri）の前にない場合、<valsi>cu</valsi>は許可されない。ロジバンでは、<valsi>cu</valsi>のように文法的な機能を果たす短い単語は、シマヴォ（<valsi>cmavo</valsi>）と呼ばれる。</para>
   </section>
   <section xml:id="section-order-of-sumti">
     <title><anchor xml:id="c2s7"/>Varying the order of sumti</title>
-    <para> <indexterm type="general"><primary>sumti reordering</primary><secondary>quick-tour version</secondary></indexterm> For one reason or another you may want to change the order, placing one particular sumti at the front of the bridi. The cmavo 
-    <valsi>se</valsi>, when placed before the last word of the selbri, will switch the meanings of the first and second sumti places. So</para>
+    <para> <indexterm type="general"><primary>sumti reordering</primary><secondary>quick-tour version</secondary></indexterm>何らかの理由で、ブリディ（bridi）の前に特定のスムティ（sumti）を配置して順序を変更したい場合がある。シマヴォ（cmavo）の<valsi>se</valsi>は、セルブリ（selbri）の最後の単語の前に置かれると、最初と2番目のスムティ（sumti）の場所の意味を入れ替える。つまり、</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0dU">
       <title>
         <anchor xml:id="c2e7d1"/>
@@ -650,10 +508,10 @@
           <sumti>do</sumti>
           <sumti>ti</sumti>
         </jbo>
-        <natlang>I talk to you about this.</natlang>
+        <natlang>私はあなたにこのことについて話す。</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">has the same meaning as</para>
+    <para role="noindent">と下は同じ意味を持つ。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0eV">
       <title>
         <anchor xml:id="c2e7d2"/>
@@ -665,11 +523,10 @@
           <sumti>mi</sumti>
           <sumti>ti</sumti>
         </jbo>
-        <natlang>You are talked to by me about this.</natlang>
+        <natlang>あなたは私によってこのことについて話される。</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent"> The cmavo 
-    <valsi>te</valsi>, when used in the same location, switches the meanings of the first and the third sumti places.</para>
+    <para role="indent">シマヴォ（cmavo）の<valsi>te</valsi>を同じ場所で使用すると、1番目と3番目のスムティ（sumti）の場所の意味が入れ替わる。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0FJ">
       <title>
         <anchor xml:id="c2e7d3"/>
@@ -681,10 +538,10 @@
           <sumti>do</sumti>
           <sumti>ti</sumti>
         </jbo>
-        <natlang>I talk to you about this.</natlang>
+        <natlang>私はあなたにこれについて話す。</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">has the same meaning as</para>
+    <para role="noindent">と下は同じ意味を持つ。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0fo">
       <title>
         <anchor xml:id="c2e7d4"/>
@@ -696,74 +553,45 @@
           <sumti>do</sumti>
           <sumti>mi</sumti>
         </jbo>
-        <natlang>This is talked about to you by me.</natlang>
+        <natlang>これはあなたに私よって話される。</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent">Note that only the first and third sumti have switched places; the second sumti has remained in the second place.</para>
-    <para> The cmavo 
-    <valsi>ve</valsi> and 
-    <valsi>xe</valsi> switch the first and fourth sumti places, and the first and fifth sumti places, respectively. These changes in the order of places are known as 
-    <quote>conversions</quote>, and the 
-    <valsi>se</valsi>, 
-    <valsi>te</valsi>, 
-    <valsi>ve</valsi>, and 
-    <valsi>xe</valsi> cmavo are said to convert the selbri.</para>
-    <para>More than one of these operators may be used on a given selbri at one time, and in such a case they are evaluated from left to right. However, in practice they are used one at a time, as there are better tools for complex manipulation of the sumti places. See 
-    <xref linkend="section-SE"/> for details.</para>
-    <para> <indexterm type="general"><primary>passive voice</primary></indexterm> The effect is similar to what in English is called the 
-    <quote>passive voice</quote>. In Lojban, the converted selbri has a new place structure that is renumbered to reflect the place reversal, thus having effects when such a conversion is used in combination with other constructs such as 
-    
-    
-    <jbophrase>le selbri [ku]</jbophrase> (see 
-    <xref linkend="section-description-sumti"/>).</para>
+    <para role="indent">1番目と3番目のスムティだけが場所を切り替えていることに注意してほしい。2番目のスムティは2番目のままである。</para>
+    <para>シマヴォ（cmavo）の<valsi>ve</valsi>と<valsi>xe</valsi>は、それぞれ1番目と4番目のスムティ（sumti）の場所と、1番目と5番目のスムティ（sumti）の場所を入れ替える。これらの場所の順序の変化は「転換（<quote>conversions</quote>）」と呼ばれ、<valsi>se</valsi>、<valsi>te</valsi>、<valsi>ve</valsi>、<valsi>xe</valsi>はセルブリ（selbri）を転換すると言われている。</para>
+    <para>一度に複数のこれらの演算子を特定のセルブリ（selbri）で使用できる。そのような場合、それらは左から右に評価される。しかし、実際には、これらは一度に1つずつ使用される。というのも、これらの場所を複雑に操作するためのより良いツールがあるためである。詳細については、<xref linkend="section-SE"/>を参照してほしい。</para>
+    <para> <indexterm type="general"><primary>passive voice</primary></indexterm>この効果は、英語で「受動態（<quote>passive voice</quote>）」と呼ばれるものに相当する。ロジバンでは、変換されたセルブリ（selbri）は位置の反転を反映するように番号が付け直された新しい位置構造を持つため、そのような変換が<jbophrase>le selbri [ku]</jbophrase>などの他の構造と組み合わせて使用されると効果がある（<xref linkend="section-description-sumti"/>を参照）。</para>
   </section>
   <section xml:id="section-structure-of-utterances">
-    <title><anchor xml:id="c2s8"/>The basic structure of longer utterances</title>
-    <para> People don't always say just one sentence. Lojban has a specific structure for talk or writing that is longer than one sentence. The entirety of a given speech event or written text is called an utterance. The sentences (usually, but not always, bridi) in an utterance are separated by the cmavo 
-    <valsi>ni'o</valsi> and 
-    <valsi>i</valsi>. These correspond to a brief pause (or nothing at all) in spoken English, and the various punctuation marks like period, question mark, and exclamation mark in written English. These separators prevent the sumti at the beginning of the next sentence from being mistaken for a trailing sumti of the previous sentence.</para>
+    <title><anchor xml:id="c2s8"/>長い文章の基本的構造</title>
+    <para>人はいつも一文しか言わないわけではない。ロジバンは、1つの文よりも長い会話や文章のための特別な構造を持っている。与えられたスピーチイベントまたは書かれたテキストの全体を発話（utterance）と呼ぶ。発話中の文（いつもではないが、通常、ブリディ）はシマヴォ（cmavo）の<valsi>ni'o</valsi>と<valsi>i</valsi>で分離される。これらは、話し言葉の英語では短い間（何もしていないかのように）、書き言葉の英語ではピリオド、疑問符、感嘆符などのさまざまな句読点に対応する。これらの区切りは、次の文の先頭のスムティ（sumti）が前の文の末尾のスムティ（sumti）と間違えられるのを防ぐ。</para>
     
-    <para>The cmavo 
-    <valsi>ni'o</valsi> separates paragraphs (covering different topics of discussion). In a long text or utterance, the topical structure of the text may be indicated by multiple 
-    <valsi>ni'o</valsi> s, with perhaps 
-    <jbophrase>ni'oni'oni'o</jbophrase> used to indicate a chapter, 
-    <jbophrase>ni'oni'o</jbophrase> to indicate a section, and a single 
-    <valsi>ni'o</valsi> to indicate a subtopic corresponding to a single English paragraph.</para>
-    <para>The cmavo 
-    <valsi>i</valsi> separates sentences. It is sometimes compounded with words that modify the exact meaning (the semantics) of the sentence in the context of the utterance. (The cmavo 
-    <valsi>xu</valsi>, discussed in 
-    <xref linkend="section-basic-questions"/>, is one such word &ndash; it turns the sentence from a statement to a question about truth.) When more than one person is talking, a new speaker will usually omit the 
-    <valsi>i</valsi> even though she/he may be continuing on the same topic.</para>
-    <para>It is still O.K. for a new speaker to say the 
-    <valsi>i</valsi> before continuing; indeed, it is encouraged for maximum clarity (since it is possible that the second speaker might merely be adding words onto the end of the first speaker's sentence). A good translation for 
-    <valsi>i</valsi> is the 
-    <quote>and</quote> used in run-on sentences when people are talking informally: 
-    <quote>I did this, and then I did that, and ..., and ...</quote>.</para>
+    <para>シマヴォ（cmavo）の<valsi>ni'o</valsi>は段落を区切る（議論の異なるトピックをカバーする）。長いテキストや発言では、テキストのトピックの構造は複数の<valsi>ni'o</valsi>で示されることがあり、おそらく<jbophrase>ni'oni'oni'o</jbophrase>は章を示し、<jbophrase>ni'oni'o</jbophrase>はセクションを示し、単一の<valsi>ni'o</valsi>は単一の英語段落に対応するサブトピックを示す。</para>
+    <para>シマヴォ（cmavo）の<valsi>i</valsi>は文を分離する。発話の文脈において、文の正確な意味（意味論）を変更する単語と複合されることがある。(<xref linkend="section-basic-questions"/>で議論したシマヴォ（cmavo）の<valsi>xu</valsi>はそのような単語の一つである-それは文を真理についての質問に変える。）複数の人が話している場合、新しい話し手は同じトピックを続けていても、通常、<valsi>i</valsi>を省略する。</para>
+    <para>新しいスピーカーが継続する前に<valsi>i</valsi>と言ってもまだ大丈夫である。実際、これは最大の明瞭さ（2番目の話者が最初の話者の文の終わりに単語を追加しているだけかもしれないからである）のために奨励される。私にとって良い翻訳は、人々がくだけた話し方をしている時に続く文章で使われる「および（<quote>and</quote>）」である：<quote>I did this, and then I did that, and ..., and ...</quote>（私はこれをやって、それでそれをやって、それと…、あと…。）。</para>
   </section>
   <section xml:id="section-basic-tanru">
     <title><anchor xml:id="c2s9"/>tanru</title>
-    <para> <indexterm type="general"><primary>tanru</primary><secondary>quick-tour version</secondary></indexterm> When two gismu are adjacent, the first one modifies the second, and the selbri takes its place structure from the rightmost word. Such combinations of gismu are called 
-    <valsi>tanru</valsi>. For example,</para>
+    <para> <indexterm type="general"><primary>tanru</primary><secondary>quick-tour version</secondary></indexterm>2つのギスム（gismu）が隣接している場合、最初のギスム（gismu）が2番目のギスム（gismu）を修飾し、セルブリ（selbri）は右端の単語からその位置構造を取る。このようなギスム（gismu）の組み合わせは、タンル（<valsi>tanru</valsi>）と呼ばれる。例えば、</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-GPcS">
       <title>
         <anchor xml:id="c2e9d1"/>
       </title>
       <jbophrase>sutra tavla</jbophrase>
     </example>
-    <para role="noindent">has the place structure</para>
+    <para role="noindent">は以下の位置構造を持つ。</para>
     <example xml:id="example-random-id-ANfh">
       <title>
         <indexterm type="example"><primary>fast talker</primary></indexterm>
 
         <anchor xml:id="c2e9d2"/>
       </title>
-      <para>x1 is a fast type-of talker to x2 about x3 in language x4</para>
-      <para>x1 talks fast to x2 about x3 in language x4</para>
+      <para>x1（者）はx2（者）にx3（題目）についてx4（言語）で速く話す／語る人である</para>
+      <para>x1（者）はx2（者）にx3（題目）についてx4（言語）で速く話す／語る</para>
     </example>
     <para role="indent"> 
 
 
-  <indexterm type="general"><primary>tanru default grouping</primary><secondary>quick-tour version</secondary></indexterm> When three or more gismu are in a row, the first modifies the second, and that combined meaning modifies the third, and that combined meaning modifies the fourth, and so on. For example</para>
+  <indexterm type="general"><primary>tanru default grouping</primary><secondary>quick-tour version</secondary></indexterm>3つ以上のギスム（gismu）が連続している場合、1つ目は2つ目を修飾し、その複合された意味は3つ目を修飾し、その複合された意味は4つ目を修飾する。 例えば、</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-pzS9">
       <title>
         <anchor xml:id="c2e9d3"/>
@@ -773,19 +601,18 @@
     <para role="noindent"> 
 
 
- has the place structure</para>
+ は以下の位置構造を持つ。</para>
     <example xml:id="example-random-id-7KPn">
       <title>
         <indexterm type="example"><primary>fast-talker shoe</primary></indexterm>
 
         <anchor xml:id="c2e9d4"/>
       </title>
-      <para>s1 is a fast-talker type of shoe worn by s2 of material s3</para>
+      <para>s1はs2が履いている素材s3の速く話すタイプの靴</para>
     </example>
-    <para role="indent">That is, it is a shoe that is worn by a fast talker rather than a shoe that is fast and is also worn by a talker.</para>
+    <para role="indent">つまり、話し手の、速い靴ではなく、速く話す人のタイプの靴である。</para>
     
-    <para>Note especially the use of 
-    <quote>type-of</quote> as a mechanism for connecting the English translations of the two or more gismu; this convention helps the learner understand each tanru in its context. Creative interpretations are also possible, however:</para>
+    <para>特に、2つ以上のギスム（gismu）の英語の翻訳を接続するためのメカニズムとして<quote>type-of</quote>の使用に注意してほしい。この規則は、学習者が各タンル（tanru）をその文脈で理解するのに役立ちます。 ただし、創造的な解釈も可能である：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-jE94">
       <title>
         <indexterm type="example"><primary>runner shoe</primary></indexterm>
@@ -794,24 +621,23 @@
       </title>
       <interlinear-gloss>
         <jbo>bajra cutci</jbo>
-        <gloss>runner shoe</gloss>
+        <gloss>走者の 靴</gloss>
       </interlinear-gloss>
     </example>
     <para role="noindent"> 
 
 
- most probably refers to shoes suitable for runners, but might be interpreted in some imaginative instances as 
-    <quote>shoes that run (by themselves?)</quote>. In general, however, the meaning of a tanru is determined by the literal meaning of its components, and not by any connotations or figurative meanings. Thus</para>
+はおそらく走者に適した靴を指すが、いくつかの想像上の例では「<quote>（自分自身で？）走る靴</quote>」と解釈されるかもしれない。ただし、一般的に、タンル（tanru）の意味は、その構成要素の文字通りの意味によって決まり、含意や比喩ではなく、文脈によって決定される。かくして、</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-HcV5">
       <title>
        <anchor xml:id="c2e9d6"/>
       </title>
       <interlinear-gloss>
         <jbo>sutra tavla</jbo>
-        <gloss>fast talker</gloss>
+        <gloss>速く 話す（人）</gloss>
       </interlinear-gloss>
     </example>
-    <para role="noindent">would not necessarily imply any trickery or deception, unlike the English idiom, and a</para>
+    <para role="noindent">は英語のイディオムのような口のうまい人や、詐欺というような含意はない。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-8umU">
       <title>
         <indexterm type="example"><primary>Lepidoptera</primary></indexterm>
@@ -821,17 +647,13 @@
       </title>
       <interlinear-gloss>
         <jbo>jikca toldi</jbo>
-        <gloss>social butterfly</gloss>
+        <gloss>社交的な 蝶</gloss>
       </interlinear-gloss>
     </example>
-    <para role="noindent"> 
-
-
- must always be an insect with large brightly-colored wings, of the family 
-    <emphasis>Lepidoptera</emphasis>.</para>
+    <para role="noindent">英語のイディオムのsocial butterfly（人付き合いのいい人、社交家）の含意はなく、常にチョウ目<emphasis>Lepidoptera</emphasis>の大きな明るい色の羽を持つ昆虫でなければならない。</para>
     
-    <para> <indexterm type="general"><primary>tanru</primary><secondary>place structure of</secondary><tertiary>quick-tour version</tertiary></indexterm> The place structure of a tanru is always that of the final component of the tanru. Thus, the following has the place structure of 
-    <valsi>klama</valsi>:</para>
+    <para> <indexterm type="general"><primary>tanru</primary><secondary>place structure of</secondary><tertiary>quick-tour version</tertiary></indexterm>タンルの場所構造は、常にタンルの最終構成要素の場所構造である。 したがって、次の場所構造は
+    <valsi>klama</valsi>になる：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0FP">
       <title>
         <anchor xml:id="c2e9d8"/>
@@ -844,16 +666,16 @@
           <sumti>la meris.</sumti>
         </jbo>
         <gloss>
-          <sumti>I</sumti>
+          <sumti>私は</sumti>
           <elidable></elidable>
-          <selbri>quickly-go</selbri>
-          <sumti>to Mary.</sumti>
+          <selbri>急いで行かれる</selbri>
+          <sumti>メアリによって</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>tanru conversion</primary><secondary>effect on place structure</secondary><tertiary>quick-tour version</tertiary></indexterm> With the conversion 
-    <jbophrase>se klama</jbophrase> as the final component of the tanru, the place structure of the entire selbri is that of 
-    <jbophrase>se klama</jbophrase>: the x1 place is the destination, and the x2 place is the one who goes:</para>
+    <para role="indent"> <indexterm type="general"><primary>tanru conversion</primary><secondary>effect on place structure</secondary><tertiary>quick-tour version</tertiary></indexterm> 転換された
+    <jbophrase>se klama</jbophrase> をタンルの最終構成要素とし、セルブリ全体の場所構成を
+    <jbophrase>se klama</jbophrase> とする： x1 の場所は目的地で、 x2 の場所は行く人である。</para>
     
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0J1">
       <title>
@@ -868,15 +690,15 @@
           <sumti>la meris.</sumti>
         </jbo>
         <gloss>
-          <sumti>I</sumti>
+          <sumti>私</sumti>
           <elidable></elidable>
-          <selbri>quickly</selbri>
-          <selbri>am-gone-to</selbri>
-          <sumti>by Mary.</sumti>
+          <selbri>急いで</selbri>
+          <selbri>行かれる</selbri>
+          <sumti>メアリーによって</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>tanru</primary><secondary>and conversion</secondary><tertiary>quick-tour version</tertiary></indexterm> The following example shows that there is more to conversion than merely switching places, though:</para>
+    <para role="indent"> <indexterm type="general"><primary>tanru</primary><secondary>and conversion</secondary><tertiary>quick-tour version</tertiary></indexterm>ただし、次の例は、単に場所を切り替えるだけでは転換できないことを示している：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0LW">
       <title>
         <anchor xml:id="c2e9d10"/>
@@ -886,25 +708,25 @@
           <sumti>la tam.</sumti>
           <elidable>cu</elidable>
           <selbri>melbi tavla</selbri>
-          <sumti>la meris.</sumti>
+          <sumti>メアリー</sumti>
         </jbo>
         <gloss>
-          <sumti>Tom</sumti>
+          <sumti>トム</sumti>
           <elidable></elidable>
-          <selbri>beautifully-talks</selbri>
-          <sumti>to Mary.</sumti>
+          <selbri>美しく話す</selbri>
+          <sumti>メアリーに対して</sumti>
         </gloss>
         <gloss>
-          <sumti>Tom</sumti>
+          <sumti>トム</sumti>
           <elidable></elidable>
-          <selbri>is a beautiful-talker</selbri>
-          <sumti>to Mary.</sumti>
+          <selbri>美しい話し手</selbri>
+          <sumti>メアリーに対して</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">has the place structure of 
-    <valsi>tavla</valsi>, but note the two distinct interpretations.</para>
-    <para>Now, using conversion, we can modify the place structure order:</para>
+    <para role="noindent">はhas the place structure of 
+    <valsi>tavla</valsi>の場所構造を持っているが、2つの異なる解釈に留意していただきたい。</para>
+    <para>さて、ここで、転換を使用して、場所構造の順序を変更することができる：</para>
     
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0mh">
       <title>
@@ -918,16 +740,16 @@
           <sumti>la tam.</sumti>
         </jbo>
         <gloss>
-          <sumti>Mary</sumti>
+          <sumti>メアリー</sumti>
           <elidable></elidable>
-          <selbri>is beautifully-talked-to</selbri>
-          <sumti>by Tom.</sumti>
+          <selbri>美しく話される</selbri>
+          <sumti>トムによって</sumti>
         </gloss>
         <gloss>
-          <sumti>Mary</sumti>
+          <sumti>メアリー</sumti>
           <elidable></elidable>
-          <selbri>is a beautiful-audience</selbri>
-          <sumti>for Tom.</sumti>
+          <selbri>美しい聞き手</selbri>
+          <sumti>トムにとって</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
