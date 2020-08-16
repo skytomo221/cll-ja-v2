@@ -20,9 +20,15 @@ linux-libertine-fonts linux-libertine-fonts-common unifont \
 unifont-fonts dejavu-sans-mono-fonts.noarch \
 java-1.8.0-openjdk-headless.x86_64
 
+# Install fonts
+RUN dnf -y install ipa-mincho-fonts
+
 # Language issues
-RUN /bin/echo 'LANG=en_US.UTF-8' >/etc/locale.conf
-ENV LANG en_US.UTF-8
+RUN dnf -y install glibc-langpack-ja
+RUN /bin/echo 'LANG=ja_JP.UTF-8' >/etc/locale.conf
+ENV LANG ja_JP.UTF-8
+ENV LANGUAGE="ja_JP:ja"
+ENV LC_ALL ja_JP.UTF-8
 
 # User setup
 RUN mkdir /srv/cll
