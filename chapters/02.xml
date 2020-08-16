@@ -7,7 +7,7 @@
     </imageobject>
   </mediaobject>
   <section xml:id="section-bridi">
-    <title><anchor xml:id="c2s1"/>ブリディ（bridi）の概念</title>
+    <title><anchor xml:id="c2s1"/>ブリディの概念</title>
     <para> <indexterm type="general"><primary>bridi</primary><secondary>concept of</secondary></indexterm> この章では、ロジバンの基本的な文構造の例を図で示す。最も一般的なパターンが最初に説明され、次にロジバン文の基本的なコンポーネントの連続したバリエーションが続く。この章では説明されていない機能は多数あるが、後の章で詳細に説明されているため、この章では、このマニュアル全体で後ほど詳しく説明する資料の<quote>クイックツアー</quote>を紹介する。また、ロジバンの文法を議論するために使用されるロジバンの単語のほとんどを紹介する。</para>
     <para> 
 
@@ -104,7 +104,7 @@
     <para>すべてのロジバンの単語は、綴られているとおりに発音される。黙字（silent letters）はない。</para>
   </section>
   <section xml:id="section-sumti-cmavo">
-    <title><anchor xml:id="c2s3"/>スムティ（sumti）として振る舞える言葉</title>
+    <title><anchor xml:id="c2s3"/>スムティとして振る舞える言葉</title>
     <para> <indexterm type="general"><primary>pro-sumti</primary><secondary>quick-tour version</secondary></indexterm>以下は、スムティとして使用される単一の単語の短い表である。この表は例のみを提供するものであり、<xref linkend="section-koha-summary"/>に記載されているような単語のすべてを示しているわけではない。</para>
     <cmavo-list>
       <cmavo-entry>
@@ -149,7 +149,7 @@
     <para>ロジバンでは、他の言語の名前に対しては、他の綴り方が可能であり、ロジバン名に表示される文字には制限がある。詳細については、<xref linkend="section-names"/>を参照してほしい。</para>
   </section>
   <section xml:id="section-some-selbri">
-    <title><anchor xml:id="c2s4"/>Some words used to indicate selbri relations</title>
+    <title><anchor xml:id="c2s4"/>セルブリを表すいくつかの言葉</title>
     <para> <indexterm type="general"><primary>selbri list for quick tour</primary></indexterm>この章でロジバンのセルブリ（selbri）として使用されるいくつかの単語の短い表を次に示す：</para>
     <para role="allowbreaks"/>
     <informaltable class="vertsep">
@@ -344,7 +344,7 @@
     <xref linkend="example-random-id-k03n"/>は、この直接法による省略の影響を受けないことに注意してほしい。これは、<valsi>zo'e</valsi>がブリディ（bridi）の最後にないためである。</para>
   </section>
   <section xml:id="section-variant-bridi-structure">
-    <title><anchor xml:id="c2s6"/>Variant bridi structure</title>
+    <title><anchor xml:id="c2s6"/>いろいろなブリディ</title>
     <para> <indexterm type="general"><primary>sumti placement</primary><secondary>variant</secondary><tertiary>quick-tour version</tertiary></indexterm>例文を見てみよう。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k068">
       <title>
@@ -368,12 +368,12 @@
           <sumti>価格-x4</sumti>
         </gloss>
         <gloss>
-          <sumti>私</sumti>
+          <sumti>私は</sumti>
           <elidable></elidable>
           <selbri>売る</selbri>
-          <sumti>これ</sumti>
-          <sumti>それ</sumti>
-          <sumti>ある価格</sumti>
+          <sumti>これを</sumti>
+          <sumti>あちらに</sumti>
+          <sumti>ある価格で</sumti>
         </gloss>
         <natlang>I sell this-thing/these-things to that-buyer/those-buyers.（私はこれをその買い手に売る。）</natlang>
         <comment>（価格は明らか、または重要でない）</comment>
@@ -401,11 +401,11 @@
           <sumti>買い手-x3</sumti>
         </gloss>
         <gloss>
-          <sumti>私</sumti>
-          <sumti>これ</sumti>
+          <sumti>私は</sumti>
+          <sumti>これを</sumti>
           <elidable></elidable>
           <selbri>売る</selbri>
-          <sumti>あれ</sumti>
+          <sumti>あちらに</sumti>
         </gloss>
         <comment>（堅苦しいか詩的な英語として翻訳した）</comment>
         <natlang>I this thing do sell to that buyer.（私は、これというものを、売る、あの買い手に。）</natlang>
@@ -431,9 +431,9 @@
           <selbri>売る</selbri>
         </gloss>
         <gloss>
-          <sumti>私</sumti>
-          <sumti>これ</sumti>
-          <sumti>あれ</sumti>
+          <sumti>私は</sumti>
+          <sumti>これを</sumti>
+          <sumti>あちらに</sumti>
           <elidable></elidable>
           <selbri>売る</selbri>
         </gloss>
@@ -461,7 +461,7 @@
           <comment>（誰かにとって、ある基準で）</comment>
         </gloss>
         <gloss>
-          <sumti>それ</sumti>
+          <sumti>それは</sumti>
           <elidable></elidable>
           <selbri>美しい</selbri>
           <comment></comment>
@@ -495,7 +495,7 @@
     <para><valsi>cu</valsi>という単語は、観察文ではない。<valsi>cu</valsi>は分離させる文字（separator）であり、<valsi>cu</valsi>を使用するためには、セルブリ（selbri）の前にスムティ（sumti）がなければならない。スムティ（sumti）がセルブリ（selbri）の前にない場合、<valsi>cu</valsi>は許可されない。ロジバンでは、<valsi>cu</valsi>のように文法的な機能を果たす短い単語は、シマヴォ（<valsi>cmavo</valsi>）と呼ばれる。</para>
   </section>
   <section xml:id="section-order-of-sumti">
-    <title><anchor xml:id="c2s7"/>Varying the order of sumti</title>
+    <title><anchor xml:id="c2s7"/>スムティの順序を変える</title>
     <para> <indexterm type="general"><primary>sumti reordering</primary><secondary>quick-tour version</secondary></indexterm>何らかの理由で、ブリディ（bridi）の前に特定のスムティ（sumti）を配置して順序を変更したい場合がある。シマヴォ（cmavo）の<valsi>se</valsi>は、セルブリ（selbri）の最後の単語の前に置かれると、最初と2番目のスムティ（sumti）の場所の意味を入れ替える。つまり、</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0dU">
       <title>
@@ -570,7 +570,7 @@
     <para>新しいスピーカーが継続する前に<valsi>i</valsi>と言ってもまだ大丈夫である。実際、これは最大の明瞭さ（2番目の話者が最初の話者の文の終わりに単語を追加しているだけかもしれないからである）のために奨励される。私にとって良い翻訳は、人々がくだけた話し方をしている時に続く文章で使われる「および（<quote>and</quote>）」である：<quote>I did this, and then I did that, and ..., and ...</quote>（私はこれをやって、それでそれをやって、それと…、あと…。）。</para>
   </section>
   <section xml:id="section-basic-tanru">
-    <title><anchor xml:id="c2s9"/>tanru</title>
+    <title><anchor xml:id="c2s9"/>タンル</title>
     <para> <indexterm type="general"><primary>tanru</primary><secondary>quick-tour version</secondary></indexterm>2つのギスム（gismu）が隣接している場合、最初のギスム（gismu）が2番目のギスム（gismu）を修飾し、セルブリ（selbri）は右端の単語からその位置構造を取る。このようなギスム（gismu）の組み合わせは、タンル（<valsi>tanru</valsi>）と呼ばれる。例えば、</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-GPcS">
       <title>
@@ -690,7 +690,7 @@
           <sumti>la meris.</sumti>
         </jbo>
         <gloss>
-          <sumti>私</sumti>
+          <sumti>私は</sumti>
           <elidable></elidable>
           <selbri>急いで</selbri>
           <selbri>行かれる</selbri>
@@ -708,16 +708,16 @@
           <sumti>la tam.</sumti>
           <elidable>cu</elidable>
           <selbri>melbi tavla</selbri>
-          <sumti>メアリー</sumti>
+          <sumti>la meris.</sumti>
         </jbo>
         <gloss>
-          <sumti>トム</sumti>
+          <sumti>トムは</sumti>
           <elidable></elidable>
           <selbri>美しく話す</selbri>
           <sumti>メアリーに対して</sumti>
         </gloss>
         <gloss>
-          <sumti>トム</sumti>
+          <sumti>トムは</sumti>
           <elidable></elidable>
           <selbri>美しい話し手</selbri>
           <sumti>メアリーに対して</sumti>
@@ -740,21 +740,21 @@
           <sumti>la tam.</sumti>
         </jbo>
         <gloss>
-          <sumti>メアリー</sumti>
+          <sumti>メアリーは</sumti>
           <elidable></elidable>
           <selbri>美しく話される</selbri>
           <sumti>トムによって</sumti>
         </gloss>
         <gloss>
-          <sumti>メアリー</sumti>
+          <sumti>メアリーは</sumti>
           <elidable></elidable>
           <selbri>美しい聞き手</selbri>
           <sumti>トムにとって</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">and we see that the modification has been changed so as to focus on Mary's role in the bridi relationship, leading to a different set of possible interpretations.</para>
-    <para>Note that there is no place structure change if the modifying term is converted, and so less drastic variation in possible meanings:</para>
+    <para role="noindent">そして、私たちはブリディの関係におけるマリアの役割に焦点を当てるように修正が変更されていることを見て、考えられる解釈の異なるセットに至ることがわかる。</para>
+    <para>なお、修飾語を変換しても場所構造の変化がないため、考えられる意味の大幅な変動が少ないことに留意していただきたい。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-qIv0">
       <title>
         <anchor xml:id="c2e9d12"/>
@@ -768,10 +768,10 @@
           <sumti>la meris.</sumti>
         </jbo>
         <gloss>
-          <sumti>Tom</sumti>
+          <sumti>トムは</sumti>
           <elidable></elidable>
-          <selbri>is talkerly-beautiful</selbri>
-          <sumti>to Mary.</sumti>
+          <selbri>話し手として美しい</selbri>
+          <sumti>メアリーにとって</sumti>
         </gloss>
 
       </interlinear-gloss-itemized>
@@ -788,26 +788,22 @@
           <sumti>la meris.</sumti>
         </jbo>
         <gloss>
-          <sumti>Tom</sumti>
+          <sumti>トムは</sumti>
           <elidable></elidable>
-          <selbri>is audiencely-beautiful</selbri>
-          <sumti>to Mary.</sumti>
+          <selbri>聞き手として美しい</selbri>
+          <sumti>メアリーにとって</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">and we see that the manner in which Tom is seen as beautiful by Mary changes, but Tom is still the one perceived as beautiful, and Mary, the observer of beauty.</para>
+    <para role="noindent">トムがメアリーに美しいと思われるところが変化するが、2例ともトムは美しいと認識され、メアリーは美しさの観察者であることに変わりはない。</para>
   </section>
   <section xml:id="section-description-sumti">
-    <title><anchor xml:id="c2s10"/>Description sumti</title>
+    <title><anchor xml:id="c2s10"/>描写スムティ</title>
     <para> 
 
-  <indexterm type="general"><primary>descriptions</primary><secondary>quick-tour version</secondary></indexterm> Often we wish to talk about things other than the speaker, the listener and things we can point to. Let's say I want to talk about a talker other than 
-    <valsi>mi</valsi>. What I want to talk about would naturally fit into the first place of 
-    <valsi>tavla</valsi>. Lojban, it turns out, has an operator that pulls this first place out of a selbri and converts it to a sumti called a 
-    <quote>description sumti</quote>. The description sumti 
-    <jbophrase>le tavla ku</jbophrase> means 
-    <quote>the talker</quote>, and may be used wherever any sumti may be used.</para>
-    <para>For example,</para>
+  <indexterm type="general"><primary>descriptions</primary><secondary>quick-tour version</secondary></indexterm>話し手以外のこと、聞き手以外のこと、指し示すことができることについて話したいと思うことはよくある。例えば、<valsi>mi</valsi>以外の話し手について話したいとしよう。つまるところ、言いたいことは、自然と<valsi>tavla</valsi>の第一項に収まるのではないだろうか。ロジバンには、場所構造の最初の場所をセルブリから引き出し、描写スムティ（<quote>description sumti</quote>）と呼ばれるスムティに変換する演算子があります。 描写スムティ
+    <jbophrase>le tavla ku</jbophrase>は「話し手（<quote>the talker</quote>）」を意味し、任意のスムティが使用できる場所であればどこでも使用することができる。</para>
+    <para>例えば、</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0Pj">
       <title>
         <anchor xml:id="c2e10d1"/>
@@ -822,15 +818,14 @@
         </jbo>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">means the same as</para>
+    <para role="noindent">は以下の意味と同じである：</para>
     <example xml:id="example-random-id-oH9T">
       <title>
         <anchor xml:id="c2e10d2"/>
       </title>
-      <para>I talk to you about the talker</para>
+      <para>私はあなたに話し手について話す。</para>
     </example>
-    <para role="noindent">where 
-    <quote>the talker</quote> is presumably someone other than me, though not necessarily.</para>
+    <para role="noindent">ここで 「話し手（<quote>the talker</quote>）」はおそらく私以外の誰かだろうが、必ずしもそうというわけではない。</para>
     <para>Similarly 
     <jbophrase>le sutra tavla ku</jbophrase> is 
     <quote>the fast talker</quote>, and 
