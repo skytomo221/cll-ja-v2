@@ -109,23 +109,23 @@
     <cmavo-list>
       <cmavo-entry>
         <cmavo>mi</cmavo>
-        <description>私・私たち</description>
+        <description>私／私たち</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>do</cmavo>
-        <description>あなた・あなたたち</description>
+        <description>あなた／あなたたち</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>ti</cmavo>
-        <description>これ・これら</description>
+        <description>これ／これら</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>ta</cmavo>
-        <description>それ・それら（あれ・あれら）</description>
+        <description>それ／それら（あれ／あれら）</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>tu</cmavo>
-        <description>あれ・あれら</description>
+        <description>あれ／あれら</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>zo'e</cmavo>
@@ -170,11 +170,11 @@
           </tr>
           <tr>
             <td><valsi>blari'o</valsi></td>
-            <td>x1（対象・色）は青緑色</td>
+            <td>x1（対象／色）は青緑色</td>
           </tr>
           <tr>
             <td><valsi>melbi</valsi></td>
-            <td>x1（対象・概念はx2（審美者）にとってx3（審美基準）において美しい／綺麗だ</td>
+            <td>x1（対象／概念はx2（審美者）にとってx3（審美基準）において美しい／綺麗だ</td>
           </tr>
           <tr>
             <td><valsi>cutci</valsi></td>
@@ -455,7 +455,7 @@
           <comment></comment>
         </jbo>
         <gloss>
-          <sumti>対象・思考-x1</sumti>
+          <sumti>対象／思考-x1</sumti>
           <elidable></elidable>
           <selbri>美しい</selbri> 
           <comment>（誰かにとって、ある基準で）</comment>
@@ -724,8 +724,7 @@
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">はhas the place structure of 
-    <valsi>tavla</valsi>の場所構造を持っているが、2つの異なる解釈に留意していただきたい。</para>
+    <para role="noindent">は<valsi>tavla</valsi>の場所構造を持っているが、2つの異なる解釈に留意していただきたい。</para>
     <para>さて、ここで、転換を使用して、場所構造の順序を変更することができる：</para>
     
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0mh">
@@ -826,15 +825,12 @@
       <para>私はあなたに話し手について話す。</para>
     </example>
     <para role="noindent">ここで 「話し手（<quote>the talker</quote>）」はおそらく私以外の誰かだろうが、必ずしもそうというわけではない。</para>
-    <para>Similarly 
-    <jbophrase>le sutra tavla ku</jbophrase> is 
-    <quote>the fast talker</quote>, and 
+    <para>同様に 
+    <jbophrase>le sutra tavla ku</jbophrase>は
+    <quote>速い話し手</quote>であり、
     
-    <jbophrase>le sutra te tavla ku</jbophrase> is 
-    <quote>the fast subject of talk</quote> or 
-    <quote>the subject of fast talk</quote>. Which of these related meanings is understood will depend on the context in which the expression is used. The most plausible interpretation within the context will generally be assumed by a listener to be the intended one.</para>
-    <para>In many cases the word 
-    <valsi>ku</valsi> may be omitted. In particular, it is never necessary in a description at the end of a sentence, so:</para>
+    <jbophrase>le sutra te tavla ku</jbophrase>は<quote>話される速い話題</quote>もしくは、<quote>速く話される話題</quote>である。これらの関連する意味のどちらが理解されるかは、その表現が使用される文脈に依存する。文脈の中でもっともらしい解釈は、一般的に、聞き手が意図したものであると仮定する。</para>
+    <para>多くの場合、単語<valsi>ku</valsi>は省略できる。特に、文末の説明では必要ないため、次のようにする：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0Q2">
       <title>
         <anchor xml:id="c2e10d3"/>
@@ -847,33 +843,23 @@
           <sumti>le tavla</sumti>
         </jbo>
         <gloss>
-          <sumti>I</sumti>
-          <selbri>talk-to</selbri>
-          <sumti>you</sumti>
-          <sumti>about-the talker</sumti>
+          <sumti>私は</sumti>
+          <selbri>話す</selbri>
+          <sumti>あなたに</sumti>
+          <sumti>話し手について</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">means exactly the same thing as 
-    <xref linkend="example-random-id-k0Pj"/>.</para>
-    <para> <indexterm type="general"><primary>cu</primary><secondary>need for</secondary><tertiary>quick-tour version</tertiary></indexterm> There is a problem when we want to say 
-    <quote>The fast one is talking.</quote> The 
-    <quote>obvious</quote> translation 
-    <jbophrase>le sutra tavla</jbophrase> turns out to mean 
-    <quote>the fast talker</quote>, and has no selbri at all. To solve this problem we can use the word 
-    
-    <valsi>cu</valsi>, which so far has always been optional, in front of the selbri.</para>
-    <para>The word 
-    <valsi>cu</valsi> has no meaning, and exists only to mark the beginning of the selbri within the bridi, separating it from a previous sumti. It comes before any other part of the selbri, including other cmavo like 
-    <valsi>se</valsi> or 
-    <valsi>te</valsi>. Thus:</para>
+    <para role="noindent">Aは、<xref linkend="example-random-id-k0Pj"/>とまったく同じ意味である。</para>
+    <para> <indexterm type="general"><primary>cu</primary><secondary>need for</secondary><tertiary>quick-tour version</tertiary></indexterm>「速い人が話している<quote>The fast one is talking.</quote>」と言いたいときに問題がある。この「明らかな」訳である<jbophrase>le sutra tavla</jbophrase>は「速い話し手<quote>the fast talker</quote>」という意味で、セルブリが全くない。この問題を解決するために、セルブリの前に、これまで常にオプションであった<valsi>cu</valsi>という単語を使うことができる。</para>
+    <para><valsi>cu</valsi>には意味がなく、ブリディ内のセルブリの始まりをマークし、前のスムティから分離するためにのみ存在する。それは、<valsi>se</valsi>や<valsi>te</valsi>などの他のシマヴォを含む、セルブリの他の部分の前に来る。したがって：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0QA">
       <title>
         <anchor xml:id="c2e10d4"/>
       </title>
       <interlinear-gloss-itemized>
         <jbo> <sumti>le sutra tavla</sumti> </jbo>
-        <gloss> <sumti>The fast talker</sumti> </gloss>
+        <gloss> <sumti>速い話し手</sumti> </gloss>
       </interlinear-gloss-itemized>
     </example>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0qb">
@@ -887,9 +873,9 @@
           <selbri>tavla</selbri>
         </jbo>
         <gloss>
-          <sumti>The fast one</sumti>
+          <sumti>速い人が</sumti>
           <elidable></elidable>
-          <selbri>is talking.</selbri>
+          <selbri>話している</selbri>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
@@ -899,7 +885,7 @@
       </title>
       <interlinear-gloss-itemized>
         <jbo><sumti>le sutra se tavla</sumti></jbo>
-        <gloss><sumti>The fast talked-to one</sumti> </gloss>
+        <gloss><sumti>速い話され手（聞き手）</sumti> </gloss>
       </interlinear-gloss-itemized>
     </example>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0ru">
@@ -913,13 +899,13 @@
           <selbri>se tavla</selbri>
         </jbo>
         <gloss>
-          <sumti>The fast one</sumti>
+          <sumti>速い者は</sumti>
           <elidable></elidable>
-          <selbri>is talked to.</selbri>
+          <selbri>話されている（聞いている）</selbri>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>KU selma'o</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>ku</primary><secondary>quick-tour version</secondary></indexterm> Consider the following more complex example, with two description sumti.</para>
+    <para role="indent"> <indexterm type="general"><primary>KU selma'o</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>ku</primary><secondary>quick-tour version</secondary></indexterm>次のより複雑な例を、2つの描写スムティで考えてみよう。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k0S1">
       <title>
         <anchor xml:id="c2e10d8"/>
@@ -935,27 +921,18 @@
           <elidable>ku</elidable>
         </jbo>
         <gloss>
-          <sumti>I</sumti>
+          <sumti>私は</sumti>
           <elidable></elidable>
-          <selbri>talk-to</selbri>
-          <sumti>the seller</sumti>
+          <selbri>話す</selbri>
+          <sumti>売り手に</sumti>
           <elidable></elidable>
-          <sumti>about the blue-green-thing.</sumti>
+          <sumti>青緑のものについて</sumti>
           <elidable></elidable>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent">The sumti 
-    <jbophrase>le vecnu</jbophrase> contains the selbri 
-    <valsi>vecnu</valsi>, which has the 
-    <quote>seller</quote> in the x1 place, and uses it in this sentence to describe a particular 
-    <quote>seller</quote> that the speaker has in mind (one that he or she probably expects the listener will also know about). Similarly, the speaker has a particular blue-green thing in mind, which is described using 
-    <valsi>le</valsi> to mark 
-    <valsi>blari'o</valsi>, a selbri whose first sumti is something blue-green.</para>
-    <para>It is safe to omit both occurrences of 
-    <valsi>ku</valsi> in 
-    <xref linkend="example-random-id-k0S1"/>, and it is also safe to omit the 
-    <valsi>cu</valsi>.</para>
+    <para role="indent">スムティ<jbophrase>le vecnu</jbophrase>には、x1の場所に「売り手<quote>seller</quote>」がいるセルブリ<valsi>vecnu</valsi>が含まれており、この文でそれを使用して、話者が念頭に置いている特定の「売り手<quote>seller</quote>」（彼または彼女はおそらく聞き手も知っているだろうと予想しているもの）を説明するためにこの文でそれを使用している。同様に、話し手は心の中で特定の青緑色のものを持っていて、最初のスムティが何か青緑色のものであるというセルブリである<valsi>blari'o</valsi>をマークするために<valsi>le</valsi>を使用して説明されている。</para>
+    <para><xref linkend="example-random-id-k0S1"/>の<valsi>ku</valsi>の両方の出現を省略しても問題はないし、cuを省略しても問題ない。</para>
   </section>
   <section xml:id="section-some-brivla">
     <title><anchor xml:id="c2s11"/>Examples of brivla</title>
