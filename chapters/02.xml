@@ -1232,19 +1232,11 @@
     <para role="noindent">は両方とも「あなたは自分を大切にしてください（<quote>You take care of you</quote>）」と「ご自愛ください（<quote>Be taken care of by you</quote>）」を意味し、また口語で言うと、「お体に気をつけて（<quote>Take care of yourself</quote>）」になる。</para>
   </section>
   <section xml:id="section-basic-questions">
-    <title><anchor xml:id="c2s15"/>Questions</title>
-    <para> <indexterm type="general"><primary>questions</primary><secondary>quick-tour version</secondary></indexterm> There are many kinds of questions in Lojban: full explanations appear in 
-    <xref linkend="section-questions-and-answers"/> and in various other chapters throughout the book. In this chapter, we will introduce three kinds: sumti questions, selbri questions, and yes/no questions.</para>
+    <title><anchor xml:id="c2s15"/>疑問</title>
+    <para> <indexterm type="general"><primary>questions</primary><secondary>quick-tour version</secondary></indexterm>ロジバンには多くの種類の質問がある：詳細な説明は、<xref linkend="section-questions-and-answers"/>や他の章にある。この章では、スムティ疑問、セルブリ疑問、肯定・否定疑問の3種類を紹介する。</para>
     
     
-    <para> <indexterm type="general"><primary>sumti questions</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>questions</primary><secondary>quick-tour version</secondary></indexterm> The cmavo 
-    <valsi>ma</valsi> is used to create a sumti question: it indicates that the speaker wishes to know the sumti which should be placed at the location of the 
-    <valsi>ma</valsi> to make the bridi true. It can be translated as 
-    <quote>Who?</quote> or 
-    <quote>What?</quote> in most cases, but also serves for 
-    <quote>When?</quote>, 
-    <quote>Where?</quote>, and 
-    <quote>Why?</quote> when used in sumti places that express time, location, or cause. For example:</para>
+    <para> <indexterm type="general"><primary>sumti questions</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>questions</primary><secondary>quick-tour version</secondary></indexterm>シマボ<valsi>ma</valsi>はスムティ疑問を作成するために使用される：それは、話し手がブリディを真にするために<valsi>ma</valsi>の場所に配置されるべきスムティを知りたいことを示す。ほとんどの場合、「誰？（<quote>Who?</quote>）」 または「何？（<quote>What?</quote>）」と翻訳することができるが、時間、場所、または原因を表すスムティの場所で使用した場合には、「いつ？（<quote>When?</quote>）」、「どこ？（<quote>Where?</quote>）」、「なぜ？（<quote>Why?</quote>）」が合う。例えば：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k161">
       <title>
         <anchor xml:id="c2e15d1"/>
@@ -1257,27 +1249,25 @@
           <sumti>mi</sumti>
         </jbo>
         <gloss>
-          <sumti>Who?</sumti>
-          <selbri>talks</selbri>
-          <sumti>to-you</sumti>
-          <sumti>about-me.</sumti>
+          <sumti>誰が？</sumti>
+          <selbri>話している</selbri>
+          <sumti>あなたと</sumti>
+          <sumti>私について</sumti>
         </gloss>
-        <natlang>Who is talking to you about me?</natlang>
+        <natlang>誰が私について話しているのですか？</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent">The listener can reply by simply stating a sumti:</para>
+    <para role="indent">聞き手は単にスムティを述べるだけで応答できる：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1Aa">
       <title>
         <anchor xml:id="c2e15d2"/>
       </title>
       <interlinear-gloss-itemized>
         <jbo> <sumti>la djan.</sumti> </jbo>
-        <natlang>John (is talking to you about me).</natlang>
+        <natlang>ジョン（があなたについて話していました）。</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent">Like 
-    <valsi>ko</valsi>, 
-    <valsi>ma</valsi> can occur in any position where a sumti is allowed, not just in the first position:</para>
+    <para role="indent"><valsi>ko</valsi>のように<valsi>ma</valsi>は、最初の位置に限らず、スムティが許可されている任意の位置でも発生する可能性がある：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1aE">
       <title>
         <anchor xml:id="c2e15d3"/>
@@ -1290,15 +1280,14 @@
           <sumti>ma</sumti>
         </jbo>
         <gloss>
-          <sumti>You</sumti>
+          <sumti>あなたは</sumti>
           <elidable></elidable>
-          <selbri>talk</selbri>
-          <sumti>to what/whom?</sumti>
+          <selbri>話す</selbri>
+          <sumti>何／誰に？</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent">A 
-    <valsi>ma</valsi> can also appear in multiple sumti positions in one sentence, in effect asking several questions at once.</para>
+    <para role="indent">また、<valsi>ma</valsi>は1つの文の中で複数のスムティの位置に出現することができ、事実上、一度に複数の質問をすることができる。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1dc">
       <title>
         <anchor xml:id="c2e15d4"/>
@@ -1318,13 +1307,9 @@
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>separate questions</primary><secondary>quick-tour version</secondary></indexterm> The two separate 
-    <valsi>ma</valsi> positions ask two separate questions, and can therefore be answered with different values in each sumti place.</para>
+    <para role="indent"> <indexterm type="general"><primary>separate questions</primary><secondary>quick-tour version</secondary></indexterm>2つの別々の<valsi>ma</valsi>ポジションは、2つの別々の質問をしているので、それぞれのスムティの場所で異なる値で回答することができる。</para>
     
-    <para> <indexterm type="general"><primary>bridi questions</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>selbri questions</primary><secondary>quick-tour version</secondary></indexterm> The cmavo 
-    <valsi>mo</valsi> is the selbri analogue of 
-    <valsi>ma</valsi>. It asks the respondent to provide a selbri that would be a true relation if inserted in place of the 
-    <valsi>mo</valsi>:</para>
+    <para> <indexterm type="general"><primary>bridi questions</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>selbri questions</primary><secondary>quick-tour version</secondary></indexterm>シマボ<valsi>mo</valsi>は<valsi>ma</valsi>のセルブリ版である。これは、<valsi>mo</valsi>の代わりに挿入された場合に真の関係となるセルブリを提供するよう回答者に要求する：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1DE">
       <title>
         <anchor xml:id="c2e15d5"/>
@@ -1336,16 +1321,13 @@
           <selbri>mo</selbri>
         </jbo>
         <gloss>
-          <sumti>You</sumti>
+          <sumti>あなたは</sumti>
           <elidable></elidable>
-          <selbri>are-what/do-what?</selbri>
+          <selbri>何ですか？／何をしていますか？</selbri>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent">A 
-    <valsi>mo</valsi> may be used anywhere a brivla or other selbri might. Keep this in mind for later examples. Unfortunately, by itself, 
-    <valsi>mo</valsi> is a very non-specific question. The response to the question in 
-    <xref linkend="example-random-id-k1DE"/> could be:</para>
+    <para role="indent"><valsi>mo</valsi>はブリブラや他のセルブリが使用できる場所であればどこでも使用できる。これは後の例のために覚えておいてほしい。残念なことに、<valsi>mo</valsi>自体は非常に非具体的な質問である。<xref linkend="example-random-id-k1DE"/>の質問に対する回答は次のようになる：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1DR">
       <title>
         <anchor xml:id="c2e15d6"/>
@@ -1356,7 +1338,7 @@
           <elidable>cu</elidable>
           <selbri>melbi</selbri>
         </jbo>
-        <natlang>I am beautiful.</natlang>
+        <natlang>私は美しいです。</natlang>
       </interlinear-gloss-itemized>
     </example>
     <para role="noindent">or:</para>
@@ -1370,34 +1352,26 @@
           <elidable>cu</elidable>
           <selbri>tavla</selbri>
         </jbo>
-        <natlang>I talk.</natlang>
+        <natlang>私は話します。</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>speaker-listener cooperation</primary></indexterm> Clearly, 
-    <valsi>mo</valsi> requires some cooperation between the speaker and the respondent to ensure that the right question is being answered. If context doesn't make the question specific enough, the speaker must ask the question more specifically using a more complex construction such as a tanru (see 
-    <xref linkend="section-basic-tanru"/>).</para>
-    <para>It is perfectly permissible for the respondent to fill in other unspecified places in responding to a 
-    <valsi>mo</valsi> question. Thus, the respondent in 
-    <xref linkend="example-random-id-k1gh"/> could have also specified an audience, a topic, and/or a language in the response.</para>
-    <para> <indexterm type="general"><primary>yes/no questions</primary><secondary>quick-tour version</secondary></indexterm> Finally, we must consider questions that can be answered 
-    <quote>Yes</quote> or 
-    <quote>No</quote>, such as</para>
+    <para role="indent"> <indexterm type="general"><primary>speaker-listener cooperation</primary></indexterm>明らかに、<valsi>mo</valsi>は正しい質問に確実に答えるために、話者と回答者の間で何らかの協力が必要である。文脈によって質問が十分に具体的にならない場合は、話者はタンルのようなより複雑な構文を使って、より具体的に質問しなければならない（<xref linkend="section-basic-tanru"/>を参照してほしい）。</para>
+    <para>回答者が<valsi>mo</valsi>の質問に回答する際に、他の指定されていない場所を記入することは完全に許容されている。このように、<xref linkend="example-random-id-k1gh"/>の回答者は回答の中で聴衆、トピック、および／または言語を指定することもできる。</para>
+    <para> <indexterm type="general"><primary>yes/no questions</primary><secondary>quick-tour version</secondary></indexterm>最後に、「はい（<quote>Yes</quote>）」または「いいえ（<quote>No</quote>）」で回答できる質問について検討する必要がある。</para>
     <example xml:id="example-random-id-fVMN">
       <title>
         <anchor xml:id="c2e15d8"/>
       </title>
-      <para>Are you talking to me?</para>
+      <para>私に話していますか？</para>
     </example>
-    <para role="indent">Like all yes-or-no questions in English, 
-    <xref linkend="example-random-id-fVMN"/> may be reformulated as</para>
+    <para role="indent">英語のすべての肯定・否定疑問と同様に、<xref linkend="example-random-id-fVMN"/>は次のように再構築できる。</para>
     <example xml:id="example-random-id-648w">
       <title>
         <anchor xml:id="c2e15d9"/>
       </title>
-      <para>Is it true that you are talking to me?</para>
+      <para>私に話しているのは真ですか？</para>
     </example>
-    <para role="indent"> In Lojban we have a word that asks precisely that question in precisely the same way. The cmavo 
-    <valsi>xu</valsi>, when placed in front of a bridi, asks whether that bridi is true as stated. So</para>
+    <para role="indent">ロジバンには、その質問を正確に同じように尋ねる言葉がある。シマボ<valsi>xu</valsi>がブリディの前に置かれると、述べられているようにそのブリディが真であるかどうかを尋ねます。だから、</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1gp">
       <title>
         <anchor xml:id="c2e15d10"/>
@@ -1410,22 +1384,15 @@
           <sumti>mi</sumti>
         </jbo>
         <gloss>
-          <cmavo>Is-it-true-that</cmavo>
-          <sumti>you</sumti>
-          <selbri>are-talking</selbri>
-          <sumti>to-me?</sumti>
+          <cmavo>真ですか？</cmavo>
+          <sumti>あなたは</sumti>
+          <selbri>話している</selbri>
+          <sumti>私に</sumti>
         </gloss>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">is the Lojban translation of 
-    <xref linkend="example-random-id-fVMN"/>.</para>
-    <para> <indexterm type="general"><primary>affirmative answer</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>go'i with xu</primary><secondary>quick-tour version</secondary></indexterm> The answer 
-    <quote>Yes</quote> may be given by simply restating the bridi without the 
-    <valsi>xu</valsi> question word. Lojban has a shorthand for doing this with the word 
-    <valsi>go'i</valsi>, mentioned in 
-    <xref linkend="section-some-brivla"/>. Instead of a negative answer, the bridi may be restated in such a way as to make it true. If this can be done by substituting sumti, it may be done with 
-    
-    <valsi>go'i</valsi> as well. For example:</para>
+    <para role="noindent">は<xref linkend="example-random-id-fVMN"/>のロジバン訳である。</para>
+    <para> <indexterm type="general"><primary>affirmative answer</primary><secondary>quick-tour version</secondary></indexterm>  <indexterm type="general"><primary>go'i with xu</primary><secondary>quick-tour version</secondary></indexterm>「はい（<quote>Yes</quote>）」という回答は、<valsi>xu</valsi>疑問詞なしでブリディを再表現することによって与えられる。ロジバンには、<xref linkend="section-some-brivla"/>で説明する<valsi>go'i</valsi>という単語を使用してこれを行うための省略形がある。否定的な答えの代わりに、ブリディはそれを真実にするような方法で言い換えられるかもしれない。これがスムティで代用できる場合は、<valsi>go'i</valsi>でも実行できる。例えば：</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1gU">
       <title>
         <indexterm type="example"><primary>healthy</primary></indexterm>
@@ -1437,13 +1404,10 @@
           <sumti>do</sumti>
           <selbri>kanro</selbri>
         </jbo>
-        <natlang>Are you healthy?</natlang>
+        <natlang>あなたは健康ですか？</natlang>
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent"> 
-
-
- can be answered with</para>
+    <para role="noindent">は次のように答えられる。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1iE">
       <title>
         <indexterm type="example"><primary>healthy</primary></indexterm>
@@ -1454,11 +1418,11 @@
           <sumti>mi</sumti>
           <selbri>kanro</selbri>
         </jbo>
-        <natlang>I am healthy.</natlang>
+        <natlang>私は健康です。</natlang>
 
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">or</para>
+    <para role="noindent">または</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1JT">
       <title>
         <indexterm type="example"><primary>healthy</primary></indexterm>
@@ -1468,17 +1432,13 @@
         <jbo>
           <selbri>go'i</selbri>
         </jbo>
-        <natlang>I am healthy.</natlang>
+        <natlang>私は健康です。</natlang>
 
 
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">
-      (Note that 
-      <valsi>do</valsi> to the questioner is 
-      <valsi>mi</valsi> to the respondent.)
-    </para>
-    <para>or</para>
+    <para role="noindent">（<valsi>do</valsi>は質問者で<valsi>mi</valsi>が回答者であることに留意していただきたい。）</para>
+    <para>または</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1jY">
       <title>
         <indexterm type="example"><primary>healthy</primary></indexterm>
@@ -1490,11 +1450,11 @@
           <elidable elidable="false">cu</elidable>
           <selbri>kanro</selbri>
         </jbo>
-        <natlang>The talker is healthy.</natlang>
+        <natlang>話し手は健康です。</natlang>
 
       </interlinear-gloss-itemized>
     </example>
-    <para role="noindent">or</para>
+    <para role="noindent">または次のようにも答えられる。</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k1LE">
       <title>
         <indexterm type="example"><primary>healthy</primary></indexterm>
@@ -1506,17 +1466,11 @@
           <elidable elidable="false">cu</elidable>
           <selbri>go'i</selbri>
         </jbo>
-        <natlang>The talker is healthy.</natlang>
+        <natlang>話し手は健康です。</natlang>
 
       </interlinear-gloss-itemized>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>negative answer</primary><secondary>quick-tour version</secondary></indexterm> A general negative answer may be given by 
-    
-    <jbophrase>na go'i</jbophrase>. 
-    <valsi>na</valsi> may be placed before any selbri (but after the 
-    <valsi>cu</valsi>). It is equivalent to stating 
-    <quote>It is not true that ...</quote> before the bridi. It does not imply that anything else is true or untrue, only that that specific bridi is not true. More details on negative statements are available in 
-    <xref linkend="chapter-negation"/>.</para>
+    <para role="indent"> <indexterm type="general"><primary>negative answer</primary><secondary>quick-tour version</secondary></indexterm>一般的な否定的な答えは<jbophrase>na go'i</jbophrase>によって与えられるかもしれない。<valsi>na</valsi>は、セルブリの前（ただし、<valsi>cu</valsi>の後）に配置できる。これは、ブリディの前に「…というのは真ではない（<quote>It is not true that ...</quote>）」と述べるのと同じである。それは、他のものが真であるか偽であるかを意味するのではなく、その特定のブリディが真ではないことだけを意味する。否定的なステートメントの詳細については、<xref linkend="chapter-negation"/>を参照してほしい。</para>
   </section>
   <section xml:id="section-attitudinals">
     <title><anchor xml:id="c2s16"/>Indicators</title>
