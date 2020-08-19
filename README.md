@@ -5,4 +5,5 @@
 
 ## Getting Started
 
-[Wiki](https://github.com/skytomo221/cll-ja-re/wiki) を見てください。
+[Wiki](https://github.com/skytomo221/cll-ja-re/wiki) を参照してください。  
+うまくやれば、 PDF や HTML が生成されます。
